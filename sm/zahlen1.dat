@@ -1,0 +1,25 @@
+\begin{tabular}{|rl|rl|rl|rl|rl|rl|rl|rl|rl|rl|}
+	\hline
+	0 & null & 1 & eins & 2 & zwei & 3 & drei & 4 & vier & 5 & fünf & 6 & sechs & 7 & sieben & 8 & acht & 9 & neun \\
+	\hline
+	10 & zehn & 11 & elf & 12 & zwölf & 13 & dreizehn & 14 & vierzehn & 15 & fünfzehn & 16 & sechzehn & 17 & siebzehn & 18 & achtzehn & 19 & neunzehn \\
+	\hline
+	20 & zwanzig & 21 & einundzwanzig & 22 & zweiundzwanzig & 23 & dreiundzwanzig & 24 & vierundzwanzig & 25 & fünfundzwanzig & 26 & sechsundzwanzig & 27 & siebenundzwanzig & 28 & actundzwanzig & 29 & neunundzwanig \\
+	\hline
+	30 & dreißig & \\
+	\hline
+	40 & vierzig & \\
+	\hline
+	50 & fünfzig & \\
+	\hline
+	60 & sechzig & \\
+	\hline
+	70 & siebzig & \\
+	\hline
+	80 & achtzig & \\
+	\hline
+	90 & neunzig & \\
+	\hline
+	100 & (ein)hundert & 101 & einhundert(und)eins & \\
+	\hline
+\end{tabular}

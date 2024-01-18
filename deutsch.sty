@@ -1,0 +1,166 @@
+% LANGUAGE
+\usepackage[ngerman]{babel}
+\usepackage{multicol}
+\usepackage{geometry}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+	\newcommand{\smu}{$\searrow$}
+	\newcommand{\smd}{$\nearrow$}
+
+\usepackage{xcolor,colortbl}
+	% COLORS
+	\definecolor{Night1}{HTML}{2e3440}
+	\definecolor{Night2}{HTML}{3b4252}
+	\definecolor{Night3}{HTML}{434c5e}
+	\definecolor{Night4}{HTML}{4c566a}
+	\definecolor{Snow1}{HTML}{d8dee9}
+	\definecolor{Snow2}{HTML}{e5e9f0}
+	\definecolor{Snow3}{HTML}{eceff4}
+	\definecolor{Frost1}{HTML}{8fbcbb}
+	\definecolor{Frost2}{HTML}{88c0d0}
+	\definecolor{Frost3}{HTML}{81a1c1}
+	\definecolor{Frost4}{HTML}{5e81ac}
+	\definecolor{Aurora1}{HTML}{bf616a}
+	\definecolor{Aurora2}{HTML}{d08770}
+	\definecolor{Aurora3}{HTML}{ebcb8b}
+	\definecolor{Aurora4}{HTML}{a3be8c}
+	\definecolor{Aurora5}{HTML}{b48ead}
+	\definecolor{red}{HTML}{bf616a}
+	\definecolor{green}{HTML}{a3be8c}
+	\definecolor{blue}{HTML}{8fbcbb}
+	\definecolor{black}{HTML}{2e3440}
+	\definecolor{white}{HTML}{eceff4}
+	% COLOR SETTINGS
+	\pagecolor{Snow3}
+	\color{Night1}
+
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{boldline}
+\usepackage{float}
+\usepackage{tipa}
+	\let\ipa\textipa
+\usepackage{hyperref}
+	\hypersetup{
+		colorlinks=true,
+		urlcolor=Frost4,
+	}
+\usepackage{mdframed}
+
+\usepackage[most]{tcolorbox}
+	\tcbuselibrary{breakable}
+	\tcbuselibrary{theorems}
+	% TCOLORBOX
+	\newtcbtheorem{phonetics}{Phonetics}{%
+		breakable,
+		enhanced jigsaw,
+		sharp corners,
+		colback=Snow3,
+		colbacklower=Snow3,
+		colframe=Aurora4,
+		boxrule=0pt,
+		borderline west={4pt}{0pt}{Aurora4},
+		fonttitle=\bfseries
+	}{pt}
+	\newtcbtheorem{phonology}{Phonology}{%
+		breakable,
+		enhanced jigsaw,
+		sharp corners,
+		colback=Snow3,
+		colbacklower=Snow3,
+		colframe=Frost4,
+		boxrule=0pt,
+		borderline west={4pt}{0pt}{Frost4},
+		fonttitle=\bfseries
+	}{pl}
+	\newtcbtheorem{morphology}{Morphology}{%
+		breakable,
+		enhanced jigsaw,
+		sharp corners,
+		colback=Snow3,
+		colbacklower=Snow3,
+		colframe=Aurora5,
+		boxrule=0pt,
+		borderline west={4pt}{0pt}{Aurora5},
+		fonttitle=\bfseries
+	}{mp}
+	\newtcbtheorem{syntax}{Grammar}{%
+		breakable,
+		enhanced jigsaw,
+		sharp corners,
+		colback=Snow3,
+		colbacklower=Snow3,
+		colframe=Aurora1,
+		boxrule=0pt,
+		borderline west={4pt}{0pt}{Aurora1},
+		fonttitle=\bfseries
+	}{st}
+	\newtcbtheorem{semantics}{Semantics}{%
+		breakable,
+		enhanced jigsaw,
+		sharp corners,
+		colback=Snow3,
+		colbacklower=Snow3,
+		colframe=Aurora2,
+		boxrule=0pt,
+		borderline west={4pt}{0pt}{Aurora2},
+		fonttitle=\bfseries
+	}{sm}
+	\newtcbtheorem{pragmatics}{Pragmatics}{%
+		breakable,
+		enhanced jigsaw,
+		sharp corners,
+		colback=Snow3,
+		colbacklower=Snow3,
+		colframe=Aurora3,
+		boxrule=0pt,
+		borderline west={4pt}{0pt}{Aurora3},
+		fonttitle=\bfseries
+	}{pr}
+	\newtcbtheorem{discourse}{Discourse}{%
+		breakable,
+		enhanced jigsaw,
+		sharp corners,
+		colback=Snow3,
+		colbacklower=Snow3,
+		colframe=Night4,
+		boxrule=0pt,
+		borderline west={4pt}{0pt}{Night4},
+		fonttitle=\bfseries
+	}{dc}
+
+\usepackage{enumitem}
+	% LISTS
+	\setlist[itemize]{noitemsep}
+	\newenvironment{question}[1]{
+	\begin{itemize}[
+		noitemsep,
+		labelwidth=0pt,
+		labelsep=0pt,
+		leftmargin=0pt,
+		label=,
+	]
+	#1
+	}{\end{itemize}}
+	\newenvironment{answer}[1]{
+	\begin{itemize}[
+		noitemsep,
+		labelwidth=0pt,
+		labelsep=0pt,
+		leftmargin=0pt,
+		label=,
+	]
+	#1
+	}{\end{itemize}}
+
+% SHORTHANDS
+\newcommand{\ws}[1]{\textcolor{Night4!50}{\textit{wortstamm}}#1}
+\newcommand{\fillhere}{\makebox[2em]{\dotfill}\ }
+\newcommand{\verbhere}{\textit{Verb}\ }
+\newcommand{\ssthere}{\textit{Substantiv}\ }
+\newcommand{\adjhere}{\textit{Adjektiv}\ }
+\newcommand{\att}[1]{\textcolor{Aurora1}{#1}}
+\newcommand{\ex}[1]{\textit{#1}}
+\newcommand{\ro}{\rowcolor{Night4!20}}
+\newcommand{\bline}{\hlineB{3}}
