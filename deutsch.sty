@@ -1,7 +1,9 @@
 % LANGUAGE
+\usepackage{noto}
 \usepackage[ngerman]{babel}
-\usepackage{multicol}
+
 \usepackage{geometry}
+\usepackage{multicol}
 
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -36,17 +38,22 @@
 	\color{Night1}
 
 \usepackage{calc}
+\usepackage{eqparbox}
+
+\usepackage{tabularx}
+\usepackage{makecell}
 \usepackage{multirow}
 \usepackage{boldline}
 \usepackage{float}
+
 \usepackage{tipa}
 	\let\ipa\textipa
+
 \usepackage{hyperref}
 	\hypersetup{
 		colorlinks=true,
 		urlcolor=Frost4,
 	}
-\usepackage{mdframed}
 
 \usepackage[most]{tcolorbox}
 	\tcbuselibrary{breakable}
@@ -129,10 +136,24 @@
 		borderline west={4pt}{0pt}{Night4},
 		fonttitle=\bfseries
 	}{dc}
+\usepackage{mdframed}
+\newenvironment{example}{
+	\begin{mdframed}
+}{
+	\end{mdframed}
+}
 
-\usepackage{enumitem}
+\usepackage[shortlabels]{enumitem}
 	% LISTS
-	\setlist[itemize]{noitemsep}
+	\newcommand\mydescriptionlabel[2][l]{\eqmakebox[listlabel@\EnumitemId][#1]{#2}}
+	\setlist[itemize]{
+		align=left,
+		leftmargin=!,
+		labelsep=10pt,
+		itemsep=0pt,
+		labelwidth=\eqboxwidth{listlabel@\EnumitemId},
+		format=\mydescriptionlabel,
+	}
 	\newenvironment{question}[1]{
 	\begin{itemize}[
 		noitemsep,
@@ -160,7 +181,9 @@
 \newcommand{\verbhere}{\textit{Verb}\ }
 \newcommand{\ssthere}{\textit{Substantiv}\ }
 \newcommand{\adjhere}{\textit{Adjektiv}\ }
+\newcommand{\sbj}{\textit{Subjekt}\ }
+\newcommand{\kjg}[1]{\textit{#1}}
 \newcommand{\att}[1]{\textcolor{Aurora1}{#1}}
-\newcommand{\ex}[1]{\textit{#1}}
+\newcommand{\ex}[1]{\textcolor{Night1!50}{\textit{#1}}}
 \newcommand{\ro}{\rowcolor{Night4!20}}
 \newcommand{\bline}{\hlineB{3}}

@@ -1,18 +1,29 @@
 \begin{syntax}{Personelpronomen}{}
-\begin{tabular}{|l|l|l|}
+\begin{figure}[H]
+\begin{tabular}{|l|l|l|l|l}
 	\hline
-	& Singular & Plural \\
+	\multicolumn{2}{|l|}{} & Singular & Plural \\
 	\hline
-	1. Person & ich & wir \\
-	2. Person & du & sie \\
-	3. Person & er/sie/es & ihr \\
+	\multicolumn{2}{|l|}{1. Person} & ich & wir \\
 	\hline
-	formell & \multicolumn{2}{c|}{Sie} \\
+	\multirow{2}{*}{2. Person} & informell & du & ihr \\
+	\cline{2-4}
+							   & formell & \multicolumn{2}{c|}{Sie} \\
 	\hline
+	\multicolumn{2}{|l|}{3. Person} & er/sie/es & sie \\
+	\hline
+\end{tabular}
+\end{figure}
+
+\begin{tabular}{llll}
+	der & \ssthere & $\rightarrow$ & er \\
+	die & \ssthere & $\rightarrow$ & sie \\
+	dar & \ssthere & $\rightarrow$ & es \\
 \end{tabular}
 \end{syntax}
 
 \begin{syntax}{Possessivpronomen}{}
+\begin{figure}[H]
 \begin{tabular}{|l|l|l|}
 	\hline
 	& Singular* & Plural \\
@@ -22,38 +33,38 @@
 	\hline
 	er & sein(e) & seine \\
 	sie & ihr(e) & ihre \\
+	es & & \\
 	\hline
 	Sie & Ihr(e) & Ihre \\
 	\hline
 \end{tabular}
+\end{figure}
 
 *
-\begin{mdframed}
-	\begin{tabular}{lllll}
-		der & \ssthere & $\rightarrow$ & mein/dein/sein/ihr/Ihr & \ssthere \\
-		die & \ssthere & $\rightarrow$ & mein\att{e}/dein\att{e}/sein\att{e}/ihr\att{e}/Ihr\att{e} & \ssthere \\
-		dar & \ssthere & $\rightarrow$ & mein/dein/sein/ihr/Ihr & \ssthere
-	\end{tabular}
-\end{mdframed}
+\begin{tabular}{lllll}
+	der & \ssthere & $\rightarrow$ & mein/dein/sein/ihr/Ihr & \ssthere \\
+	die & \ssthere & $\rightarrow$ & mein\att{e}/dein\att{e}/sein\att{e}/ihr\att{e}/Ihr\att{e} & \ssthere \\
+	dar & \ssthere & $\rightarrow$ & mein/dein/sein/ihr/Ihr & \ssthere
+\end{tabular}
 
 \begin{figure}[H]
-\begin{tabular}{l|ll|ll|ll|ll}
-\hline
-	& \multicolumn{6}{c|}{Singular} & \multirow{2}{*}{Plural} & \\
-\cline{1-7}
-	& \multicolumn{2}{l|}{maskulin} & \multicolumn{2}{l|}{feminin} & \multicolumn{2}{l|}{neutral} & & \\
-\hline
-	ich & mein & \ssthere & meine & \ssthere & mein & \ssthere & meine & \ssthere \\
-\hline
-	du & dein & \ssthere & deine & \ssthere & dein & \ssthere & deine & \ssthere \\
-\hline
-	er & sein & \ssthere & seine & \ssthere & sein & \ssthere & seine & \ssthere \\
-	sie & ihr & \ssthere & ihre & \ssthere & ihr & \ssthere & ihre & \ssthere \\
-\hline
-	sie & ihr & \ssthere & ihre & \ssthere & ihr & \ssthere & ihre & \ssthere \\
-\hline
-	Sie & Ihr & \ssthere & Ihre & \ssthere & Ihr & \ssthere & Ihre & \ssthere \\
-\hline
+\begin{tabular}{|l|l|l|l|l|}
+	\hline
+	& \multicolumn{3}{c|}{Singular} & \multirow{2}{*}{Plural} \\
+	\cline{2-4}
+	& maskulin & feminin & neutral & \\
+	\hline
+	ich & mein & mein\att{e} & mein & mein\att{e} \\
+	\hline
+	du & dein & dein\att{e} & dein & dein\att{e} \\
+	\hline
+	er & sein & sein\att{e} & sein & sein\att{e} \\
+	sie & ihr & ihr\att{e} & ihr & ihr\att{e} \\
+	\hline
+	sie & ihr & ihr\att{e} & ihr & ihr\att{e} \\
+	\hline
+	Sie & Ihr & Ihr\att{e} & Ihr & Ihr\att{e} \\
+	\hline
 \end{tabular}
 \end{figure}
 \end{syntax}
@@ -71,6 +82,7 @@
 		\end{itemize}
 	\item etwas \begin{itemize}
 			\item \att{Etwas} bestellen und bezahlen.
+			\item Möchest du \att{etwas} trinken?
 		\end{itemize}
 \end{itemize}
 \end{syntax}
