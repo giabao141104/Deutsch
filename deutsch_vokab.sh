@@ -1,11 +1,13 @@
 #!/bin/sh
 # BUG MAKE SURE EACH CSV FILES HAVE NO DUPLICATES
 
+cd ./csv
+
 alias bemenu="bemenu -c -l 20 -B 3 -W 0.25 -p \">\" --fn unscii 12 --cw 2 --cf \"#eceff4\" --bdr \"#5e81ac\" --tb \"#2e3440\" --tf \"#eceff4\" --nb \"#2e3440\" --nf \"#4c566a\" --ab \"#2e3440\" --af \"#4c566a\" --fb \"#2e3440\" --ff \"#eceff4\" --hb \"#2e3440\" --hf \"#eceff4\""
 
 data=$(grep -R . -e "$1")
 line=$(echo "$data" | wc -l)
-nfiles=$(ls -1 | wc -l)
+nfiles=$(ls -1 | tail -n +2 | wc -l)
 
 get_column () {
 	export $1=$(echo $header | awk -v para=$2 '
@@ -29,7 +31,7 @@ data=$(
 
 	for (( i = 1; i <= $nfiles; i++ ))
 	do
-		loop_file=$(ls -1 | head -n "$i" | tail -n 1)
+		loop_file=$(ls -1 | tail -n +2 | head -n "$i" | tail -n 1)
 		filename=${loop_file%.*} ; default="${filename^}"
 		header=$(head -n 1 $loop_file)
 		if [[ $loop_file == $special_file ]] ; then
