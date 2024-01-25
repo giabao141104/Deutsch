@@ -40,7 +40,7 @@ das,ß,PLURAL,s,*,Buschstabe
 das,Deutschland,PLURAL,ˈdɔɪ̯t͡ʃlant,*,Land
 das,Österreich,PLURAL,ˈøːstəʁaɪ̯ç,*,Land
 die,Schweiz,PLURAL,ʃvaɪ̯t͡s,*,Land
-das,Hamburg,PLURAL,ˈhambʊʁk,*,Stadt:Land.Deutschland
+das,Hamburg,-,ˈhambʊʁk,*,Stadt:Land.Deutschland
 das,Leipzig,PLURAL,ˈlaɪ̯pt͡sɪç,*,Stadt:Land.Deutschland
 das,Stuttgart,PLURAL,ˈʃtʊtɡaʁt,*,Stadt:Land.Deutschland
 das,Berlin,PLURAL,bɛʁˈliːn,*,Stadt:Land.Deutschland
@@ -218,16 +218,16 @@ der,Schreibtisch,Schreibtische,ˈʃʁaɪ̯pˌtɪʃ,Komposita,Gegenstand
 die,Präsentation,PLURAL,pʁɛzɛntaˈt͡si̯oːn,*,Fremdwörter.Französisch
 das,Büro,PLURAL,byˈʁoː,*,Fremdwörter.Französisch
 der,Bleistift,PLURAL,ˈblaɪ̯ˌʃtɪft,Komposita,Gegenstand
-der,Lippenstift,PLURAL,ˈlɪpn̩ˌʃtɪft,Komposita,Gegenstand
+der,Lippenstift,PLURAL,ˈlɪpn̩ˌʃtɪft,Komposita:Fugenelement -n-,Gegenstand
 die,Lippe,PLURAL,ˈlɪpə,*,Anatomie
 das,Blei,PLURAL,blaɪ̯,*,Chemie
 der,Autoschlüssel,PLURAL,ˈaʊ̯toˌʃlʏsl̩,Komposita,Gegenstand
 das,Zimmer,PLURAL,ˈt͡sɪmɐ,*,Gegenstand
 der,Zimmerschlüssel,PLURAL,ˈt͡sɪmɐˌʃlʏsl̩,Komposita,Gegenstand
-der,Sonnenschirm,PLURAL,ˈzɔnənˌʃɪʁm,Komposita,Gegenstand
+der,Sonnenschirm,PLURAL,ˈzɔnənˌʃɪʁm,Komposita:Fugenelement -n-,Gegenstand
 das,Cello,PLURAL,ˈt͡ʃɛlo,*,Musik
-die,Tageszeitung,PLURAL,ˈtaːɡəsˌt͡saɪ̯tʊŋ,Komposita,Gegenstand
-das,Wörterbuch,PLURAL,ˈvœʁtɐˌbuːx,Komposita,Gegenstand
+die,Tageszeitung,PLURAL,ˈtaːɡəsˌt͡saɪ̯tʊŋ,Komposita:Fugenelement -es-,Gegenstand
+das,Wörterbuch,PLURAL,ˈvœʁtɐˌbuːx,,Gegenstand
 das,Wort,PLURAL,vɔʁt,*,
 die,Modezeitschrift,PLURAL,ˈmoːdəˌt͡saɪ̯tʃʁɪft,*,Gegenstand
 die,Mode,PLURAL,ˈmoːdə,*,
@@ -339,7 +339,7 @@ das,Hotelzimmer,Hotelzimmer,hoˈtɛlˌt͡sɪmɐ,*,
 das,Museum,Museen,muˈzeːʊm,*,
 -,-,Leute,ˈlɔɪ̯tə,*,
 der,Tee,Tees,teː,*,Getränk
-der,Orangensaft,Orangensäfte,oˈʁɑ̃ːʒn̩ˌzaft,Komposita,Getränk.Saft
+der,Orangensaft,Orangensäfte,oˈʁɑ̃ːʒn̩ˌzaft,Komposita:Fugenelement -n-,Getränk.Saft
 die,Orange,Orangen,oˈʁɑ̃ːʒə,*,Essen.Obst
 der,Saft,Säfte,zaft,*,Getränk
 das,Mineralwasser,Mineralwässer,mineˈʁaːlˌvasɐ,Komposita,Getränk
@@ -397,3 +397,29 @@ die,Konferenz,Konferenzen,ˌkɔnfeˈʁɛnt͡s,*,
 die,Malerei,Malereien,ˌmaːləˈʁaɪ̯,*,
 die,Idee,Ideen,iˈdeː,*,
 die,Ahnung,Ahnungen,ˈaːnʊŋ,*,
+der,Autor,Autoren,ˈaʊ̯toːɐ̯,*,Beruf
+die,Autorin,Autorinnen,aʊ̯ˈtoːʁɪn,*,Beruf
+der,Film,Filme,fɪlm,*,
+das,Wunder,Wunder,ˈvʊndɐ,*,
+das,Dresden,-,ˈdʁeːsdn̩,*,Stadt:Land.Deutschland
+das,Salzburg,-,ˈzalt͡sˌbʊʁk,*,Stadt:Land.Österreich
+das,Luzern,-,luˈt͡sɛʁn,*,Stadt:Land.Schweiz
+das,Lugano,-,,*,Stadt:Land.Schweiz
+die,Touristeninformation,Touristeninformationen,tuˈʁɪstn̩ʔɪnfɔʁmaˌt͡si̯oːn,Komposita:Fugenelement -en-,
+der,Tourist,Touristen,tuˈʁɪst,Komposita,
+das,Kunstmuseum,Kunstmuseen,ˈkʊnstmuˌzeːʊm,Komposita,
+der,Bahnhof,Bahnhöfe,ˈbaːnˌhoːf,Komposita,
+die,Bahn,Bahnen,baːn,*,
+der,Hof,Höfe,hoːf,*,
+das,Restaurant,Restaurants,ʁɛstoˈʁɑ̃ː,Fremdwort.fr,
+der,Parkplatz,Parkplätze,ˈpaʁkˌplat͡s,Komposita,
+der,Platz,Plätze,plat͡s,*,
+die,Apotheke,Apotheken,apoˈteːkə,*,
+das,Café,Cafés,kaˈfeː,Fremdwort.fr,
+der,Supermarkt,Supermärkte,ˈzuːpɐˌmaʁkt,Lehnwort.en:Derivatem super-,
+der,Markt,Märkte,maʁkt,*,
+das,Kino,Kinos,ˈkiːno,*,
+die,Bibliothek,Bibliotheken,biblioˈteːk,Lehnwort.la,
+die,Bücherei,Büchereien,byːçəˈʁaɪ̯,Lehnwort.nl,
+das,Geld,Gelder,ɡɛlt,,
+die,Fahrkarte,Fahrkarten,ˈfaːɐ̯ˌkaʁtə,Komposita,

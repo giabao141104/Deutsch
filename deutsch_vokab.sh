@@ -5,9 +5,7 @@ cd ./csv
 
 alias bemenu="bemenu -c -l 20 -B 3 -W 0.25 -p \">\" --fn unscii 12 --cw 2 --cf \"#eceff4\" --bdr \"#5e81ac\" --tb \"#2e3440\" --tf \"#eceff4\" --nb \"#2e3440\" --nf \"#4c566a\" --ab \"#2e3440\" --af \"#4c566a\" --fb \"#2e3440\" --ff \"#eceff4\" --hb \"#2e3440\" --hf \"#eceff4\""
 
-data=$(grep -R . -e "$1")
-line=$(echo "$data" | wc -l)
-nfiles=$(ls -1 | tail -n +2 | wc -l)
+nfiles=$(ls -1 | wc -l)
 
 get_column () {
 	export $1=$(echo $header | awk -v para=$2 '
@@ -31,9 +29,10 @@ data=$(
 
 	for (( i = 1; i <= $nfiles; i++ ))
 	do
-		loop_file=$(ls -1 | tail -n +2 | head -n "$i" | tail -n 1)
+		loop_file=$(ls -1 |  head -n "$i" | tail -n 1)
 		filename=${loop_file%.*} ; default="${filename^}"
 		header=$(head -n 1 $loop_file)
+
 		if [[ $loop_file == $special_file ]] ; then
 			get_column "col" $default
 			get_column "gcol" "Genus"
@@ -56,7 +55,8 @@ data=$(
 
 dataH=$(echo "$data" | awk -F'[:]' '{print $2}')
 
-choosen=$(echo "$dataH" | bemenu) && [[ -z $choosen ]] && exit
+choosen=$(echo "$dataH" | bemenu)
+[[ -z $choosen ]] && exit
 row=$(echo "$dataH" | grep -Fnx "$choosen" | awk -F'[:]' '{print $1}')
 choosen_file=$(echo "$data" | head -n "$row" | tail -n 1 | awk -F'[:]' '{print $1}')
 data_row=$(echo "$data" | grep "^$choosen_file:" | grep -Fnx "$(echo $choosen | sed -e "s/^/$choosen_file:/")" | awk -F'[:]' '{print $1}')
@@ -99,7 +99,14 @@ s/ʔ/P/g;
 ipa="\\textipa{$ipa}"
 ipa=$(echo $ipa | sed -e 's/\\/\\\\/g')
 
-echo "$(echo $header && echo $data | sed -e "s/[^,]*/$ipa/$icol")" > ~/.cache/vokab/vokab.csv
+if [[ $choosen_file == "verb.csv" ]] ; then
+	echo "$(
+		echo $header | awk -F'[,]' '{print $1","$2","$4","$5","$6","$7","$8","$9}' && 
+		echo $data | sed -e "s/[^,]*/$ipa/$icol" | awk -F'[,]' '{print $1","$2","$4","$5","$6","$7","$8","$9"\n"",,"$10","$11","$12","$13","$14","$15}'
+	)" > ~/.cache/vokab/vokab.csv
+else
+	echo "$(echo $header && echo $data | sed -e "s/[^,]*/$ipa/$icol")" > ~/.cache/vokab/vokab.csv
+fi
 
 cat << EOF > ~/.cache/vokab/vokab.tex
 \\documentclass[varwidth=\\maxdimen,margin=5mm]{standalone}

@@ -1,72 +1,75 @@
 \begin{discourse}{Essen und Drinken}{essen-trinken}
-\begin{tabular}{lV{3}l}
-%	\item \begin{question}
-%			\item Was möchtest du/möchten Sie trinken?
-%		\end{question}
-%	\item \begin{answer}
-%			\item Ich brauche (jetzt) \fillhere .
-%			\item Ich möchte (gern) \fillhere .
-%			\item Ich nehmen (auch) \fillhere .
-%		\end{answer}
-%	\item \begin{question}
-%			\item Möchtest du/Möchten Sie (auch) \fillhere ?
-%		\end{question}
-%	\item \begin{answer}
-%			\item Ach doch, ich nehme (auch) \fillhere .
-%		\end{answer}
-%	\item \begin{answer}
-%			\item Wir möchten (gern) zahlen.
-%		\end{answer}
-%	\item \begin{question}
-%			\item Zusammen oder getrennt?
-%		\end{question}
-%	\item \begin{answer}
-%			\item Zusammen. (Ich zahle heute.)
-%			\item Oh, vielen Dank.
-%			\item Getrennt.
-%		\end{answer}
-%	\item \begin{answer}
-%			\item \fillhere und \fillhere, das macht \fillhere Euro.
-%		\end{answer}
-%	\item \begin{answer}
-%			\item Bitte.
-%		\end{answer}
-%	\item \begin{answer}
-%			\item Vielen Dank. Auf Wiedersehen.
-%		\end{answer}
+\begin{tabularx}{\linewidth}{XV{3}X}
 	\multicolumn{2}{l}{\textbf{Nahrungsmittel}} \\
 	\bline
-	\multicolumn{2}{l}{} \\
+\end{tabularx}
 
+\begin{tabularx}{\linewidth}{XV{3}X}
 	\multicolumn{2}{l}{\textbf{Mahlzeiten}} \\
 	\bline
-	\multicolumn{2}{l}{} \\
+\end{tabularx}
 
-	\multicolumn{2}{l}{\textbf{Speisen}} \\
+\begin{tabularx}{\linewidth}{XV{3}X}
+	\multicolumn{2}{l}{\textbf{Speisen und Getränke}} \\
 	\bline
-	\multicolumn{2}{l}{} \\
+	\multirow{2}{*}{Möchten Sie \kjg{ein} \fillhere essen/trinken?}	& Nein, ich möchte \kjg{kein} \fillhere . \\
+																	& Ich esse/trinke lieber \kjg{ein} \fillhere . \\
+\end{tabularx}
 
-	\multicolumn{2}{l}{\textbf{Getränke}} \\
-	\bline
-	\multicolumn{2}{l}{} \\
-
+\begin{tabularx}{\linewidth}{XV{3}X}
 	\multicolumn{2}{l}{\textbf{Lokale (Restaurant, Café)}} \\
 	\bline
+	Was nehmen Sie?					& Ich nehme (auch) \fillhere . \\
+	Was möchten Sie trinken/essen?	& Ich möchte (gern) \fillhere . \\
+	Was trinken Sie?				& Ich trinke \fillhere . \\
+	Was essen Sie?					& Ich esse \fillhere . \\
+									& Ich brauche (jetzt) \fillhere . \\
+	\hline
+	Möchten Sie (auch) \fillhere?					& Nein, danke. \\
+	\ro Möchtest Sie wirklich \kjg{kein} \fillhere?	& Ach doch, ich nehme auch \kjg{ein} \fillhere . \\
+	\hline
+	Möchten Sie \kjg{ein} \fillhere essen/trinken?	& Nein, ich möchte \kjg{kein} \fillhere . \\
+													& Ich esse/trinke lieber \kjg{ein} \fillhere . \\
+	\hline
+	Wie viel kostet \fillhere ?	& \fillhere kostet \fillhere Euro. \\
+	Was kostet \fillhere ?		& \fillhere kostet \fillhere Euro. \\
+	\ro							& Dann nehme ich auch noch \fillhere . \\
+							   	& Gerne. Vielen Dank. \\
+	\hline
+								& Ich möchte (gern) zahlen. \\
+								& Das macht zusammen \fillhere Euro. \\
+	\hline
+	Zusammen oder getrennt?		& Zusammen. \\
+	\ro							& \fillhere und \fillhere, das macht \fillhere Euro. \\
+	\ro							& Das macht zusammaen \fillhere Euro. \\
+	\hline
+								& Bitte. \\
+	\ro							& Vielen Dank. Auf Wiedersehen.
+\end{tabularx}
+
+\begin{example}
+\begin{tabularx}{\linewidth}{XV{3}X}
 													& Dort ist ein Tisch frei. \\
 	\ro												& Ich brauche jetzt \ex{einen Kaffee}. \\
 	\ro	\multirow{-2}{*}{Was möchten Sie trinken?}	& Ich möchte bittet \ex{einen Kaffee}. \\
 	Mit \ex{Milch} und \ex{Zucker}?					& Mit viel \ex{Mich} und ohne \ex{Zucker}. \\
 	\ro	Ist das alles?								& Nein, ich nehme noch \fillhere . \\
 	Also \ex{einen Kaffee} mit Milch und \fillhere	& Ja, bitte. \\
-	\hline
-	Wie viel kostet \ex{ein Stück Käsekuchen}?	& \ex{Ein Stück Käsekuchen} kostet \fillhere Euro. \\
-	Was kostet \ex{der Kaffee}?					& \ex{Der Kaffee} kostet \fillhere Euro. \\
-	\ro											& Dann nehme ich auch noch \ex{ein Stück Käsekuchen}. \\
-											   	& Gerne. Vielen Dank. \\
-	\hline
-							& Wir möchten gern zahlen. \\
-	Zusammen oder getrennt?	& Zusammen. \\
-							& Das macht zusammen \fillhere Euro. \\
-	\multicolumn{2}{l}{}
-\end{tabular}
+\end{tabularx}
+\end{example}
+
+\begin{example}
+\begin{tabularx}{\linewidth}{XV{3}X}
+												& Ich brauche (jetzt) \fillhere . \\
+												& Ich möchte (gern) \fillhere . \\
+	\multirow{-3}{*}{Was möchten Sie trinken?}	& Ich nehmen (auch) \fillhere . \\
+	\ro Möchtest Sie (auch) \fillhere?			& Nein, danke. \\
+	Möchtest Sie wirklich \kjg{kein} \fillhere?	& Ach doch, ich nehme auch \kjg{ein} \fillhere . \\
+	\ro											& Ich möchte (gern) zahlen. \\
+												& Zusammen. Ich zahle heute. \\
+	\multirow{-2}{*}{Zusammen oder getrennt?}	& Getrennt. \\
+												& Bitte. \\
+	\ro											& Vielen Dank. Auf Wiedersehen.
+\end{tabularx}
+\end{example}
 \end{discourse}
