@@ -67,8 +67,8 @@ get_column "icol" "IPA"
 ipa=$(echo $data | awk -v i=$icol -F'[,]' '{print $i}')
 
 ipa=$(echo $ipa | sed -e '
-s/ˈ/"/g;
-s/ˌ/""/g; 
+s/ˈ/"{}/g;
+s/ˌ/""{}/g; 
 s/i̯/\\textsubarch{i}/g;
 s/ɪ̯/\\textsubarch{I}/g;
 s/ɪ/I/g;
@@ -98,14 +98,15 @@ s/ʔ/P/g;
 ')
 ipa="\\textipa{$ipa}"
 ipa=$(echo $ipa | sed -e 's/\\/\\\\/g')
+data=$(echo $data | sed -e "s/[^,]*/$ipa/$icol; s/\[/\\\\att{/g; s/\]/}/g")
 
 if [[ $choosen_file == "verb.csv" ]] ; then
 	echo "$(
 		echo $header | awk -F'[,]' '{print $1","$2","$4","$5","$6","$7","$8","$9}' && 
-		echo $data | sed -e "s/[^,]*/$ipa/$icol" | awk -F'[,]' '{print $1","$2","$4","$5","$6","$7","$8","$9"\n"",,"$10","$11","$12","$13","$14","$15}'
+		echo $data | awk -F'[,]' '{print "\\multirow{2}{*}{"$1"},\\multirow{2}{*}{"$2"},"$4","$5","$6","$7","$8","$9"\n"",,"$10","$11","$12","$13","$14","$15}'
 	)" > ~/.cache/vokab/vokab.csv
 else
-	echo "$(echo $header && echo $data | sed -e "s/[^,]*/$ipa/$icol")" > ~/.cache/vokab/vokab.csv
+	echo "$(echo $header && echo $data)" > ~/.cache/vokab/vokab.csv
 fi
 
 cat << EOF > ~/.cache/vokab/vokab.tex
@@ -114,6 +115,12 @@ cat << EOF > ~/.cache/vokab/vokab.tex
 \\usepackage{tipa}
 \\usepackage[l3]{csvsimple}
 \\usepackage{booktabs}
+\\usepackage[ngerman]{babel}
+\\usepackage{multirow}
+\\usepackage{xcolor}
+	\\definecolor{Aurora1}{HTML}{bf616a}
+
+\\newcommand{\\att}[1]{\\textcolor{Aurora1}{#1}}
 
 \\begin{document}
 {\\Huge \\bfseries $choosen}
