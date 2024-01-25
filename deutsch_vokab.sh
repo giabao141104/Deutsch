@@ -98,12 +98,12 @@ s/ʔ/P/g;
 ')
 ipa="\\textipa{$ipa}"
 ipa=$(echo $ipa | sed -e 's/\\/\\\\/g')
-data=$(echo $data | sed -e "s/[^,]*/$ipa/$icol; s/\[/\\\\att{/g; s/\]/}/g")
+data=$(echo $data | sed -e "s/[^,]*/$ipa/$icol; s/\[/\\\\att{/g; s/\]/}/g; s/1/True/; s/0/False/")
 
 if [[ $choosen_file == "verb.csv" ]] ; then
 	echo "$(
-		echo $header | awk -F'[,]' '{print $1","$2","$4","$5","$6","$7","$8","$9}' && 
-		echo $data | awk -F'[,]' '{print "\\multirow{2}{*}{"$1"},\\multirow{2}{*}{"$2"},"$4","$5","$6","$7","$8","$9"\n"",,"$10","$11","$12","$13","$14","$15}'
+		echo $header | awk -F'[,]' '{print $1","$2","$3","$4","$5","$6","$7","$8","$9","$10}' && 
+		echo $data | awk -F'[,]' '{print "\\multirow{2}{*}{"$1"},\\multirow{2}{*}{"$2"},\\multirow{2}{*}{"$3"},\\multirow{2}{*}{"$4"},"$5","$6","$7","$8","$9","$10"\n"",,,,"$11","$12","$13","$14","$15","$16}'
 	)" > ~/.cache/vokab/vokab.csv
 else
 	echo "$(echo $header && echo $data)" > ~/.cache/vokab/vokab.csv
