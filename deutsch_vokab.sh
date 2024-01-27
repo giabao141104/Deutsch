@@ -3,25 +3,59 @@
 
 cd ./csv
 
-alias bemenu="bemenu -c -l 20 -B 3 -W 0.25 -p \">\" --fn unscii 12 --cw 2 --cf \"#eceff4\" --bdr \"#5e81ac\" --tb \"#2e3440\" --tf \"#eceff4\" --nb \"#2e3440\" --nf \"#4c566a\" --ab \"#2e3440\" --af \"#4c566a\" --fb \"#2e3440\" --ff \"#eceff4\" --hb \"#2e3440\" --hf \"#eceff4\""
+alias bemenu="bemenu -i -c -l 20 -B 3 -W 0.25 -p \">\" --fn unscii 12 --cw 2 --cf \"#eceff4\" --bdr \"#5e81ac\" --tb \"#2e3440\" --tf \"#eceff4\" --nb \"#2e3440\" --nf \"#4c566a\" --ab \"#2e3440\" --af \"#4c566a\" --fb \"#2e3440\" --ff \"#eceff4\" --hb \"#2e3440\" --hf \"#eceff4\""
 
 nfiles=$(ls -1 | wc -l)
 
 get_column () {
-	export $1=$(echo $header | awk -v para=$2 '
+	output=$(echo $header | awk -v para=$2 '
 		BEGIN{
 		  FS=","
 		}
 		{ 
-		  gsub(/\r/,"")
 		  for(i=1;i<=NF;i++){
 		     if($i==para){
 		        print i
-		        exit
 		     }
 		  }
 		}
 	')
+	export $1="$output"
+}
+
+convert_ipa () {
+	ipa=$(echo $ipa | sed -e '
+		s/ˈ/"{}/g;
+		s/ˌ/""{}/g; 
+		s/i̯/\\textsubarch{i}/g;
+		s/ɪ̯/\\textsubarch{I}/g;
+		s/ɪ/I/g;
+		s/ʊ̯/\\textsubarch{U}/g;
+		s/ʊ/U/g;
+		s/ɐ̯/\\textsubarch{5}/g;
+		s/ɐ/5/g;
+		s/n̩/\\s{n}/g;
+		s/l̩/\\s{l}/g;
+		s/ç/\\c{c}/g;
+		s/ø/\\o{}/g;
+		s/ŋ/\\ng{}/g;
+		s/œ/\\oe{}/g;
+		s/t͡s/\\t{ts}/g;
+		s/p͡f/\\t{pf}/g;
+		s/ɑ̃/\\~{A}/g;
+		s/ː/:/g;
+		s/ɛ/E/g;
+		s/ʁ/K/g;
+		s/ʃ/S/g;
+		s/ɔ̃/\\~{O}/g;
+		s/ɔ/O/g;
+		s/ɡ/g/g;
+		s/ə/@/g;
+		s/ʏ/Y/g;
+		s/ʔ/P/g;
+	')
+	ipa="\\textipa{$ipa}"
+	ipa=$(echo $ipa | sed -e 's/\\/\\\\/g')
 }
 
 data=$(
@@ -64,41 +98,22 @@ data=$(cat $choosen_file | tail -n +2 | head -n "$data_row" | tail -n 1)
 
 header=$(head -n 1 $choosen_file)
 get_column "icol" "IPA"
-ipa=$(echo $data | awk -v i=$icol -F'[,]' '{print $i}')
 
-ipa=$(echo $ipa | sed -e '
-s/ˈ/"{}/g;
-s/ˌ/""{}/g; 
-s/i̯/\\textsubarch{i}/g;
-s/ɪ̯/\\textsubarch{I}/g;
-s/ɪ/I/g;
-s/ʊ̯/\\textsubarch{U}/g;
-s/ʊ/U/g;
-s/ɐ̯/\\textsubarch{5}/g;
-s/ɐ/5/g;
-s/n̩/\\s{n}/g;
-s/l̩/\\s{l}/g;
-s/ç/\\c{c}/g;
-s/ø/\\o{}/g;
-s/ŋ/\\ng{}/g;
-s/œ/\\oe{}/g;
-s/t͡s/\\t{ts}/g;
-s/p͡f/\\t{pf}/g;
-s/ɑ̃/\\~{A}/g;
-s/ː/:/g;
-s/ɛ/E/g;
-s/ʁ/K/g;
-s/ʃ/S/g;
-s/ɔ̃/\\~{O}/g;
-s/ɔ/O/g;
-s/ɡ/g/g;
-s/ə/@/g;
-s/ʏ/Y/g;
-s/ʔ/P/g;
-')
-ipa="\\textipa{$ipa}"
-ipa=$(echo $ipa | sed -e 's/\\/\\\\/g')
-data=$(echo $data | sed -e "s/[^,]*/$ipa/$icol; s/\[/\\\\att{/g; s/\]/}/g; s/1/True/; s/0/False/")
+nipa=$(echo "$icol" | wc -l)
+if [[ $nipa != 1 ]] ; then
+	for (( i = 1; i <= $nipa; i++ ))
+	do
+		loop_col=$(echo "$icol" |  head -n "$i" | tail -n 1)
+		ipa=$(echo $data | awk -v i=$loop_col -F'[,]' '{print $i}')
+		convert_ipa
+		data=$(echo $data | sed -e "s/[^,]*/${ipa//\//\\/}/$loop_col; s/\[/\\\\att{/g; s/\]/}/g; s/1/True/; s/0/False/")
+	done
+else
+	ipa=$(echo $data | awk -v i=$icol -F'[,]' '{print $i}')
+	convert_ipa
+	data=$(echo $data | sed -e "s/[^,]*/${ipa//\//\\/}/$icol; s/\[/\\\\att{/g; s/\]/}/g; s/1/True/; s/0/False/")
+fi
+data=$(echo $data | sed -e 's/\\textipa{\([a-zA-Z0-9{}@":\~]*\)\/\([a-zA-Z0-9{}@":\~]*\)}/\\makecell[l]{\\textipa{\1} \\\\ \\textipa{\2}}/g')
 
 if [[ $choosen_file == "verb.csv" ]] ; then
 	echo "$(
@@ -117,6 +132,7 @@ cat << EOF > ~/.cache/vokab/vokab.tex
 \\usepackage{booktabs}
 \\usepackage[ngerman]{babel}
 \\usepackage{multirow}
+\\usepackage{makecell}
 \\usepackage{xcolor}
 	\\definecolor{Aurora1}{HTML}{bf616a}
 

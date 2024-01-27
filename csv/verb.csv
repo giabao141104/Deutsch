@@ -74,10 +74,12 @@ hängen,ˈhɛŋən,1,TRENNBAR,hänge,hängst,hängt,hängen,hängt,hängen,ICH,D
 stimmen,ˈʃtɪmən,1,TRENNBAR,stimme,stimmst,stimmt,stimmen,stimmt,stimmen,ICH,DU,ER/SIE/ES,WIR,IHR,SIE,*
 parken,ˈpaʁkn̩,1,TRENNBAR,parke,parkst,parkt,parken,parkt,parken,parkte,parktest,parkte,parkten,parktet,parkten,Fremdwort.en
 kaufen,ˈkaʊ̯fn̩,1,TRENNBAR,kaufe,kaufst,kauft,kaufen,kauft,kaufen,kaufte,kauftest,kaufte,kauften,kauftet,kauften,*
-fahren,ˈfaːʁən,1,TRENNBAR,fahre,fährst,fährt,fahren,fahrt,fahren,fuhr,fuhrst,fuhr,fuhren,fuhrt,fuhren,*
+fahren,ˈfaːʁən,0,TRENNBAR,fahre,f[ä]hrst,f[ä]hrt,fahren,fahrt,fahren,f[u]hr,f[u]hrst,f[u]hr,f[u]hren,f[u]hrt,f[u]hren,*
 sehen,ˈzeːən,0,TRENNBAR,sehe,s[ie]hst,s[ie]ht,sehen,seht,sehen,sah,sahst,sah,sahen,saht,sahen,*
 reservieren,ʁezɛʁˈviːʁən,1,TRENNBAR,reserviere,reservierst,reserviert,reservieren,reserviert,reservieren,reservierte,reserviertest,reservierte,reservierten,reserviertet,reservierten,Fremdwort.fr
 kosten,ˈkɔstn̩,1,TRENNBAR,koste,kostest,kostet,kosten,kostet,kosten,kostete,kostetest,kostete,kosteten,kostetet,kosteten,*
 angeben,ˈanˌɡeːbn̩,0,TRENNBAR,gebe an,g[i]bst an,g[i]bt an,geben an,gebt an,geben an,g[a]b an,g[a]bst an,g[a]b an,g[a]ben an,g[a]bt an,g[a]ben an,*
 bleiben,ˈblaɪ̯bn̩,0,TRENNBAR,bleibe,bleibst,bleibt,bleiben,bleibt,bleiben,bl[ie]b,bl[ie]bst,bl[ie]b,bl[ie]ben,bl[ie]bt,bl[ie]ben,*
-reisen,ˈʁaɪ̯zn̩,1,NONE,reise,reist,reist,reisen,reist,reisen
+reisen,ˈʁaɪ̯zn̩,1,-,reise,reist,reist,reisen,reist,reisen,reiste,reistest,reiste,reisten,reistet,reisten,*
+anreisen,ˈanˌʁaɪ̯zn̩,1,1,reise an,reist an,reist an,reisen an,reist an,reisen an,reiste an,reistest an,reiste an,reisten an,reistet an,reisten an,Ableitung.an-
+abreisen,ˈapˌʁaɪ̯zn̩,1,1,reise ab,reist ab,reist ab,reisen ab,reist ab,reisen ab,reiste ab,reistest ab,reiste ab,reisten ab,reistet ab,reisten ab,Ableitung.ab-
