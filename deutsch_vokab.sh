@@ -25,8 +25,10 @@ get_column () {
 
 convert_ipa () {
 	ipa=$(echo $ipa | sed -e '
-		s/ˈ/"{}/g;
-		s/ˌ/""{}/g; 
+		s/ˈ/\\textprimstress{}/g;
+		#s/ˈ/"/g;
+		s/ˌ/\\textsecstress{}/g; 
+		#s/ˌ/""/g; 
 		s/i̯/\\textsubarch{i}/g;
 		s/ɪ̯/\\textsubarch{I}/g;
 		s/ɪ/I/g;
@@ -113,7 +115,7 @@ else
 	convert_ipa
 	data=$(echo $data | sed -e "s/[^,]*/${ipa//\//\\/}/$icol; s/\[/\\\\att{/g; s/\]/}/g; s/1/True/; s/0/False/")
 fi
-data=$(echo $data | sed -e 's/\\textipa{\([a-zA-Z0-9{}@":\~]*\)\/\([a-zA-Z0-9{}@":\~]*\)}/\\makecell[l]{\\textipa{\1} \\\\ \\textipa{\2}}/g')
+data=$(echo $data | sed -e 's/\\textipa{\([a-zA-Z0-9{}@":\~]*\)\/\([a-zA-Z0-9{}@":\~]*\)}/\\makecell[l]{\\textipa{\1} \\\\ \\textipa{\2}}/g' -e 's/\([a-zA-ZäöüÄÖÜß]*\)\/\([a-zA-ZäöüÄÖÜß]*\)\,/\\makecell[l]{\1 \\\\ \2}\,/g')
 
 if [[ $choosen_file == "verb.csv" ]] ; then
 	echo "$(
