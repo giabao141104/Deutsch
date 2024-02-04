@@ -1,36 +1,105 @@
 % LANGUAGE
 \usepackage{noto}
+\usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
 
-\usepackage{geometry}
+\usepackage{titlesec}
+\newlength{\marginlabelsep}\setlength{\marginlabelsep}{0.5em}
+	\titleformat{\section}[hang]
+		{\bfseries}
+		{\llap{\Large\thesection\hskip\marginlabelsep}}
+		{0pt}
+		{\Large}
+	\titleformat{\subsection}[hang]
+		{\bfseries}
+		{\llap{\large\thesubsection\hskip\marginlabelsep}}
+		{0pt}
+		{\large}
+	\titleformat{\subsubsection}[hang]
+		{\bfseries}
+		{\llap{\thesubsubsection\hskip\marginlabelsep}}
+		{0pt}
+		{}
+% https://tex.stackexchange.com/a/60212
+	%\titleclass{\subsubsubsection}{straight}[\subsection]
+	%\newcounter{subsubsubsection}[subsubsection]
+	%\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+	%\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}}
+	%\titleformat{\subsubsubsection}
+	%  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+	%\titlespacing*{\subsubsubsection}
+	%{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+	%
+	%\titleclass{\subsubsubsubsection}{straight}[\subsection]
+	%\newcounter{subsubsubsubsection}[subsubsubsection]
+	%\renewcommand\thesubsubsubsubsection{\thesubsubsubsection.\arabic{subsubsubsubsection}}
+	%\renewcommand\theparagraph{\thesubsubsubsubsection.\arabic{paragraph}}
+	%\titleformat{\subsubsubsubsection}
+	%  {\normalfont\normalsize\bfseries}{\thesubsubsubsubsection}{1em}{}
+	%\titlespacing*{\subsubsubsubsection}
+	%{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+	%
+	%\makeatletter
+	%\renewcommand\paragraph{\@startsection{paragraph}{6}{\z@}%
+	%  {3.25ex \@plus1ex \@minus.2ex}%
+	%  {-1em}%
+	%  {\normalfont\normalsize\bfseries}}
+	%\renewcommand\subparagraph{\@startsection{subparagraph}{7}{\parindent}%
+	%  {3.25ex \@plus1ex \@minus .2ex}%
+	%  {-1em}%
+	%  {\normalfont\normalsize\bfseries}}
+	%\def\toclevel@subsubsubsection{4}
+	%\def\toclevel@subsubsubsubsection{5}
+	%\def\toclevel@paragraph{6}
+	%\def\toclevel@paragraph{7}
+	%\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+	%\def\l@subsubsubsubsection{\@dottedtocline{5}{7em}{4em}}
+	%\def\l@paragraph{\@dottedtocline{5}{10em}{5em}}
+	%\def\l@subparagraph{\@dottedtocline{6}{14em}{6em}}
+	%\makeatother
+
+%\setcounter{secnumdepth}{5}
+%\setcounter{tocdepth}{4}
+
+% Page layout
+\usepackage[
+	a4paper,
+	left=1in,
+	textwidth=6.5in,
+	marginparsep=0.3in,
+	marginparwidth=1.5in,
+	%showframe,
+]{geometry}
 \usepackage{multicol}
 
 \usepackage{amsmath}
 \usepackage{amssymb}
 	\newcommand{\smu}{$\searrow$}
 	\newcommand{\smd}{$\nearrow$}
+\usepackage{textcomp}
 
-\usepackage{xcolor,colortbl}
+\usepackage{xcolor}
+\usepackage{soul}
+	\sethlcolor{Frost2!50}
+\usepackage{colortbl}
 	% COLORS
 	\definecolor{Night1}{HTML}{2e3440}
 	\definecolor{Night2}{HTML}{3b4252}
 	\definecolor{Night3}{HTML}{434c5e}
-	\definecolor{Night4}{HTML}{4c566a}
+	\definecolor{grey}{HTML}{4c566a}
 	\definecolor{Snow1}{HTML}{d8dee9}
 	\definecolor{Snow2}{HTML}{e5e9f0}
 	\definecolor{Snow3}{HTML}{eceff4}
 	\definecolor{Frost1}{HTML}{8fbcbb}
 	\definecolor{Frost2}{HTML}{88c0d0}
 	\definecolor{Frost3}{HTML}{81a1c1}
-	\definecolor{Frost4}{HTML}{5e81ac}
-	\definecolor{Aurora1}{HTML}{bf616a}
+	\definecolor{blue}{HTML}{5e81ac}
 	\definecolor{Aurora2}{HTML}{d08770}
-	\definecolor{Aurora3}{HTML}{ebcb8b}
+	\definecolor{yellow}{HTML}{ebcb8b}
 	\definecolor{Aurora4}{HTML}{a3be8c}
 	\definecolor{Aurora5}{HTML}{b48ead}
 	\definecolor{red}{HTML}{bf616a}
 	\definecolor{green}{HTML}{a3be8c}
-	\definecolor{blue}{HTML}{8fbcbb}
 	\definecolor{black}{HTML}{2e3440}
 	\definecolor{white}{HTML}{eceff4}
 	% COLOR SETTINGS
@@ -39,6 +108,7 @@
 
 \usepackage{calc}
 \usepackage{eqparbox}
+\usepackage{xparse}
 
 \usepackage{tabularx}
 \usepackage{makecell}
@@ -46,13 +116,17 @@
 \usepackage{boldline}
 \usepackage{float}
 
+\usepackage{tikz}
+\usepackage{forest}
+	\useforestlibrary{edges}
+
 \usepackage{tipa}
 	\let\ipa\textipa
 
 \usepackage{hyperref}
 	\hypersetup{
 		colorlinks=true,
-		urlcolor=Frost4,
+		allcolors=red,
 	}
 
 \usepackage[most]{tcolorbox}
@@ -76,9 +150,9 @@
 		sharp corners,
 		colback=Snow3,
 		colbacklower=Snow3,
-		colframe=Frost4,
+		colframe=blue,
 		boxrule=0pt,
-		borderline west={4pt}{0pt}{Frost4},
+		borderline west={4pt}{0pt}{blue},
 		fonttitle=\bfseries
 	}{pl}
 	\newtcbtheorem{morphology}{Morphology}{%
@@ -98,9 +172,9 @@
 		sharp corners,
 		colback=Snow3,
 		colbacklower=Snow3,
-		colframe=Aurora1,
+		colframe=red,
 		boxrule=0pt,
-		borderline west={4pt}{0pt}{Aurora1},
+		borderline west={4pt}{0pt}{red},
 		fonttitle=\bfseries
 	}{st}
 	\newtcbtheorem{semantics}{Semantics}{%
@@ -120,9 +194,9 @@
 		sharp corners,
 		colback=Snow3,
 		colbacklower=Snow3,
-		colframe=Aurora3,
+		colframe=yellow,
 		boxrule=0pt,
-		borderline west={4pt}{0pt}{Aurora3},
+		borderline west={4pt}{0pt}{yellow},
 		fonttitle=\bfseries
 	}{pr}
 	\newtcbtheorem{discourse}{Discourse}{%
@@ -131,9 +205,9 @@
 		sharp corners,
 		colback=Snow3,
 		colbacklower=Snow3,
-		colframe=Night4,
+		colframe=grey,
 		boxrule=0pt,
-		borderline west={4pt}{0pt}{Night4},
+		borderline west={4pt}{0pt}{grey},
 		fonttitle=\bfseries
 	}{dc}
 \usepackage{mdframed}
@@ -176,14 +250,38 @@
 	}{\end{itemize}}
 
 % SHORTHANDS
-\newcommand{\ws}[1]{\textcolor{Night4!50}{\textit{wortstamm}}#1}
-\newcommand{\fillhere}{\makebox[2em]{\dotfill}\ }
-\newcommand{\verbhere}{\textit{Verb}\ }
+\newcommand{\ws}[1]{\textcolor{grey!50}{\textit{wortstamm}}#1}
+\newcommand{\fillhere}{\makebox[1.5em]{\dotfill}\ }
+\newcommand{\verbhere}{\textsc{\textbf{Verb}}\ }
 \newcommand{\ssthere}{\textit{Substantiv}\ }
 \newcommand{\adjhere}{\textit{Adjektiv}\ }
-\newcommand{\sbj}{\textit{Subjekt}\ }
-\newcommand{\kjg}[1]{\textit{#1}}
-\newcommand{\att}[1]{\textcolor{Aurora1}{#1}}
-\newcommand{\ex}[1]{\textcolor{Night1!50}{\textit{#1}}}
-\newcommand{\ro}{\rowcolor{Night4!20}}
+\newcommand{\sbj}{\textsc{\textbf{Subjekt}}\ }
+\newcommand{\akk}{\textsc{\textbf{Akkusativobjekt}}\ }
+\newcommand{\kjg}[1]{\textit{#1}\textsubscript{{\footnotesize \textsc{\textbf{kjg}}}}}
+\newcommand{\kontext}[1]{\underline{\textit{\textcolor{grey!50}{#1}}}}
+\newcommand{\att}[1]{\textcolor{red}{#1}}
+\NewDocumentCommand{\ex}{sm}{
+	\IfBooleanTF{#1}
+	{
+		\begin{enumerate}[(1), itemsep=0pt, series=ex]
+			#2
+		\end{enumerate}
+	}
+	{
+		\begin{enumerate}[resume*=ex]
+			#2
+		\end{enumerate}
+	}
+}
+\newcommand{\ro}{\rowcolor{grey!20}}
 \newcommand{\bline}{\hlineB{3}}
+\newcommand{\key}[1]{\hl{#1}}
+\newcommand{\dudencite}[2]{
+	(\cite[#2]{duden-#1})
+}
+\newcommand{\definition}[1]{%
+	\begin{mdframed}[linewidth=0pt,backgroundcolor=blue!30]
+		#1
+	\end{mdframed}
+}
+\newcommand{\enquote}[1]{\guillemetright{}#1\guillemetleft{}}

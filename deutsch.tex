@@ -1,64 +1,153 @@
-\documentclass{article}
+\documentclass{report}
 \usepackage{deutsch}
 
 \begin{document}
 
-\section{Levels Structures}
-\input{sprachniveau}
-
-\section{Phonetics}
+\part{Phonetics}
 \input{pt/phonetik}
 \input{pt/wortakzent}
 
-\section{Phonology}
+\part{Phonology}
 \input{pl/das-alphabet}
 \input{pl/satzmelodie}
 
-\section{Semantics}
-\input{sm/affix}
+\part{Semantics}
+%\input{sm/affix}
 \input{sm/zahlen}
-\input{sm/substantiv}
-\input{sm/wunsche}
+\input{sm/uhrzeit}
+\input{sm/tageszeiten}
+\input{sm/dauer}
+%\input{sm/substantiv}
+%\input{sm/wunsche}
 
-\section{Pragmatics}
-\input{pr/wendungen-im-alltag}
+\part{Pragmatics}
+%\input{pr/wendungen-im-alltag}
 
-\section{Grammatik}
-\input{st/pronomen}
-\input{st/artikel}
-\input{st/adposition}
-\input{st/adverb}
-\input{st/adjektiv}
-\input{st/partikel}
-\input{st/verb}
-\input{st/kasus}
-\input{st/satzbau}
-\input{st/was-passt}
-\input{st/note}
-\input{st/konjunktion}
+\part{Grammatik}
 
-\section{Discourse}
-\input{dc/allgemein}
-\input{dc/sich-vorstellen}
-\input{dc/stadt}
-\input{dc/hobbys}
-\input{dc/personen-vorstellen}
-\input{dc/berufe-und-tatigkeiten}
-\input{dc/was-ist-in}
-\input{dc/wie-finden-sie}
-\input{dc/kennzeichen}
-\input{dc/lander}
-\input{dc/sprachen}
-\input{dc/chart}
-\input{dc/partnerinterview}
-\input{dc/wie-gehts}
+\chapter{Wörter und Wortbausteine}
+
+	\section{Was ist ein Wort?}
+		\input{st/wortart-diagramm}
+		\newpage
+		\subsection{Lexem und syntaktisches Wort}
+		\input{st/lexem-und-syntaktisches-wort}
+		\subsection{Wortarten}
+		\subsection{Flexion}
+		\subsection{Zum Begriff des Morphems}
+	\section{Wortbildung}
+	\section{Verb}
+		\subsection{Übersicht}
+		\subsection{Valenz und Bedeutung der Verben}
+		\subsection{Flexion der Verben}
+		\subsection{Wortbildung der Verben}
+	\section{Nomen}
+		\subsection{Übersicht}
+		\subsection{Bedeutung der Nomen}
+		\subsection{Valenz von Nomen}
+		\subsection{Genus des Nomens}
+		\subsection{Bildung der Pluralformen}
+		\subsection{Kasusflexion des Nomen}
+		\subsection{Wortbildung der Nomen}
+	\section{Artikelwort und Pronomen}
+		\subsection{Grundsätzliches zur Wortart}
+		\subsection{Personalpronomen}
+		\subsection{Reflexivpronomen}
+		\subsection{Possessiva}
+		\subsection{Demonstrativa}
+		\subsection{Definiter Artikel}
+		\subsection{Relativa}
+		\subsection{Interrogativ}
+		\subsection{Indefinita}
+		\subsection{Indefiniter Artikel}
+		\input{st/demonstrativa}
+	\section{Adjektiv}
+		\subsection{Inventar}
+		\subsection{Bedeutung der Adjektive}
+		\subsection{Gebrauch der Adjektive}
+		\subsection{Valenz von Adjektiven}
+		\subsection{Formenbildung}
+		\subsection{Komparation von Adjektiven}
+		\subsection{Wortbildung der Adjektive}
+	\section{Adverb}
+		\subsection{Syntaktische Eigenschaften}
+		\subsection{Morphologische Eigenschaften}
+		\subsection{Inventar}
+		\subsection{Wortbildung der Adverbien}
+	\section{Präposition}
+		\subsection{Inventar}
+		\subsection{Bedeutung und Funktion}
+		\subsection{Kasusrektion}
+		\subsection{Verschmelzung von Präposition und definitem Artikel}
+	\section{Adjunktor, Subjunktion, Konjunktion}
+	\section{Partikel}
+	\section{Laut und Silbe}
+
+\chapter{Sätze als Textbausteine}
+
+	\section{Was ist ein Satz?}
+		\subsection{Wortstellung: Abfolge von Satzgliedern und Prädikatsteilen}
+		\input{st/wortstellung}
+	\section{Was ist ein komplexer Satz?}
+	\section{Parenthesen}
+	\section{Auslassungen}
+	\section{Zeit und Geltung}
+		\subsection{Zeit und Tempus}
+			\subsubsection{Grundlegendes: Aktionsart, Tempus und Zeitadverbiale}
+			\subsubsection{Die Funktionen der indikativischen Tempora}
+			\subsubsection{Tempussystem des Konjunktivs}
+		\subsection{Geltung und Modus}
+			\subsubsection{Aufforderungen und der Imperativ}
+			\subsubsection{Modalverben}
+			\subsubsection{Bedingungssatzgefüge}
+			\subsubsection{Indirekte Rede- und Gedankenwiedergabe: Indikativ, Konjunktiv I, Konjunktiv II}
+	\section{Syntaktische Negation}
+
+%\input{st/artikel}
+%\input{st/adposition}
+%\input{st/adverb}
+%\input{st/adjektiv}
+%\input{st/partikel}
+%\input{st/verb}
+%\input{st/kasus}
+%\input{st/satzbau}
+%\input{st/was-passt}
+%\input{st/note}
+%\input{st/konjunktion}
+
+\part{Discourse}
+% UNDOCUMENTED
+% auch, noch, ein bisschen, auf + SPRACHE, sehr
+% ..., wie ...
+% wie lange ... schon ...
+\input{dc/some-expressions}
+\input{dc/jemanden-begrüßen-und-verabschieden}
 \input{dc/person}
+\input{dc/reisen-verkehr}
 \input{dc/essen-trinken}
 \input{dc/einkaufen-gebrauchsartikel}
+\input{dc/erziehung-ausbildung-lernen}
+\input{dc/arbeit-beruf}
+\input{dc/freizeit-unterhaltung}
+\input{dc/wohnen}
+\input{dc/unsorted}
+\input{dc/e-mails}
+%\input{dc/stadt}
+%\input{dc/hobbys}
+%\input{dc/personen-vorstellen}
+%\input{dc/berufe-und-tatigkeiten}
+%\input{dc/was-ist-in}
+%\input{dc/wie-finden-sie}
+%\input{dc/lander}
+%\input{dc/sprachen}
+%\input{dc/chart}
+%\input{dc/partnerinterview}
+%\input{dc/wie-gehts}
+%\input{dc/einkaufen-gebrauchsartikel}
 
 %\newpage
 
-%\bibliography{references} 
-%\bibliographystyle{ieeetr}
+\bibliography{references} 
+\bibliographystyle{ieeetr}
 
 \end{document}

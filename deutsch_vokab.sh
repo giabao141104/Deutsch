@@ -61,15 +61,13 @@ convert_ipa () {
 }
 
 data=$(
-	special_file="substantiv.csv"
-
 	for (( i = 1; i <= $nfiles; i++ ))
 	do
 		loop_file=$(ls -1 |  head -n "$i" | tail -n 1)
 		filename=${loop_file%.*} ; default="${filename^}"
 		header=$(head -n 1 $loop_file)
 
-		if [[ $loop_file == $special_file ]] ; then
+		if [[ $loop_file == "substantiv.csv" ]] ; then
 			get_column "col" $default
 			get_column "gcol" "Genus"
 			get_column "pcol" "Plural"
@@ -82,9 +80,22 @@ data=$(
 				}
 			' | sed -e "s/^/$loop_file:$default /"
 		else
-			get_column "col" $default
-			data=$(tail -n +2 $loop_file | sed -e "s/^/$loop_file:/")
-			tail -n +2 $loop_file | awk -v c=$col -F'[,]' '{print $c}' | sed -e "s/^/$loop_file:$default /"
+			if [[ $loop_file == "verb.csv" ]] ; then
+				get_column "col" $default
+				get_column "tcol" "trennbar"
+				tail -n +2 $loop_file | awk -v c=$col -v t=$tcol '
+					BEGIN{
+						FS=","
+					}{
+						if($t=="-"){print $c}
+						else{print $c" "$t}
+					}
+				' | sed -e "s/^/$loop_file:$default /" | sed -e 's/1/(trennbar)/; s/0/(nicht trennbar)/'
+			else
+				get_column "col" $default
+				data=$(tail -n +2 $loop_file | sed -e "s/^/$loop_file:/")
+				tail -n +2 $loop_file | awk -v c=$col -F'[,]' '{print $c}' | sed -e "s/^/$loop_file:$default /"
+			fi
 		fi
 	done
 )

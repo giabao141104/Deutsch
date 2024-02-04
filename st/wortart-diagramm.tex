@@ -1,0 +1,161 @@
+\begin{figure}[H]
+\centering
+%\begin{forest}
+%for tree={grow'=0,folder,draw}
+%[\hl{Wortart}
+%	[flektierbar
+%		[nach Tempus
+%			[\hl{Verb}]
+%		]
+%		[nach Kasus
+%			[fetes Genus
+%				[\hl{Nomen}]
+%			]
+%			[veränderbares Genus
+%				[nicht komparierbar
+%					[\hl{Artikelwort} \hl{Pronomen}
+%						[Personalpronomen]
+%						[Reflexivpronomen]
+%						[Possessivum]
+%						[Demonstrativum]
+%						[definiter Artikel]
+%						[Relativum]
+%						[Interrogativum]
+%						[Indefinitum]
+%						[indefiniter Artikel]
+%					]
+%				]
+%				[komparierbar
+%					[\hl{Adjektiv}]
+%				]
+%			]
+%		]
+%	]
+%	[nicht flektierbar
+%		[\hl{nicht flektierbare} \hl{Wortarten}
+%			[Adverb]
+%			[Präposition]
+%			[Adjunktor]
+%			[Subjunktion]
+%			[Konjunktion]
+%			[Partikel]
+%		]
+%	]
+%]
+%\end{forest}
+
+% FOREST
+\begin{forest}
+[\hl{Wortart}
+	[flektierbar
+		[nach Tempus
+					[\hl{Verb}, l*=4]
+		]
+		[nach Kasus
+			[fetes \\ Genus, align=center, base=top
+					[\hl{Nomen}, l*=3]
+			]
+			[veränderbares \\ Genus, align=center, base=top
+				[nicht \\ komparierbar, align=center, base=top
+					[\hl{Artikelwort} \\ \hl{Pronomen}, align=center, base=top
+						[
+							Personalpronomen \\
+							Reflexivpronomen \\
+							Possessivum \\
+							Demonstrativum \\
+							definiter Artikel \\
+							Relativum \\
+							Interrogativum \\
+							Indefinitum \\
+							indefiniter Artikel
+						, align=center, base=top]
+					]
+				]
+				[komparierbar
+					[\hl{Adjektiv}, l*=1.5]
+				]
+			]
+		]
+	]
+	[nicht \\ flektierbar, align=center, base=top
+					[\hl{nicht flektierbare} \\ \hl{Wortarten}, align=center, base=top, l*=5
+						[
+							Adverb \\
+							Präposition \\
+							Adjunktor \\
+							Subjunktion \\
+							Konjunktion \\
+							Partikel
+						, align=center, base=top]
+					]
+	]
+]
+\end{forest}
+
+% DUDEN STYLE
+%\begin{tikzpicture}
+%	\node {\key{Wortart}} [
+%		level 1/.style={sibling distance=10cm},
+%		level 2/.style={sibling distance=5cm},
+%		level 3/.style={sibling distance=5cm},
+%		level 4/.style={sibling distance=3cm},
+%		level 5/.style={sibling distance=4cm},
+%		level 6/.style={sibling distance=4cm,level distance = 4cm},
+%	]
+%    child {node {flektierbar}
+%		child {node {nach Tempus}
+%			child{
+%				child{
+%					child {node {\key{Verb}}}
+%				}
+%			}
+%		}
+%		child {node {nach Kasus}
+%			child {node [align=center] {festes\\Genus}
+%				child{
+%					child {node {\key{Nomen}}}
+%				}
+%			}
+%			child {node [align=center] {veränderbares\\Genus}
+%				child {node [align=center] {nicht\\komparierbar}
+%					child{node [align=center] {\key{Artikelwort}\\\key{Pronomen}}
+%						child{node [align=center] {
+%							Personalpronomen \\
+%							Reflexivpronomen \\
+%							Possessivum \\
+%							Demonstrativum \\
+%							definiter Artikel \\
+%							Relativum \\
+%							Interrogativum \\
+%							Indefinitum \\
+%							indefiniter Artikel
+%							}
+%						}
+%					}
+%				}
+%				child {node {komparierbar}
+%					child{node {\key{Adjektiv}}}
+%				}
+%			}
+%		}
+%	} 
+%	child {node [align=center] {nicht\\flektierbar}
+%		child{
+%			child{
+%				child{
+%					child {node [align=center] {\key{nicht flektierbare}\\\key{Wortarten}}
+%						child{node [align=center] {
+%							Adverb \\
+%							Präposition \\
+%							Adjunktor \\
+%							Subjunktion \\
+%							Konjunktion \\
+%							Partikel
+%						}}
+%					}
+%				}
+%			}
+%		}
+%	};
+%\end{tikzpicture}
+\end{figure}
