@@ -75,7 +75,7 @@ data=$(
 				BEGIN{
 					FS=","
 				}{
-					if($c=="-"){print "die "$p}
+					if($c==""){print "die "$p}
 					else{print $g" "$c}
 				}
 			' | sed -e "s/^/$loop_file:$default /"
@@ -119,23 +119,30 @@ if [[ $nipa != 1 ]] ; then
 		loop_col=$(echo "$icol" |  head -n "$i" | tail -n 1)
 		ipa=$(echo $data | awk -v i=$loop_col -F'[,]' '{print $i}')
 		convert_ipa
-		data=$(echo $data | sed -e "s/[^,]*/${ipa//\//\\/}/$loop_col; s/\[/\\\\att{/g; s/\]/}/g; s/1/True/; s/0/False/")
+		data=$(echo $data | sed -e "s/\[/\\\\att{/g; s/\]/}/g; s/1/True/; s/0/False/; s/[^,]*/${ipa//\//\\/}/$loop_col;")
 	done
 else
 	ipa=$(echo $data | awk -v i=$icol -F'[,]' '{print $i}')
 	convert_ipa
-	data=$(echo $data | sed -e "s/[^,]*/${ipa//\//\\/}/$icol; s/\[/\\\\att{/g; s/\]/}/g; s/1/True/; s/0/False/")
+	data=$(echo $data | sed -e "s/\[/\\\\att{/g; s/\]/}/g; s/1/True/; s/0/False/; s/[^,]*/${ipa//\//\\/}/$icol;")
 fi
 data=$(echo $data | sed -e 's/\\textipa{\([a-zA-Z0-9{}@":\~]*\)\/\([a-zA-Z0-9{}@":\~]*\)}/\\makecell[l]{\\textipa{\1} \\\\ \\textipa{\2}}/g' -e 's/\([a-zA-ZäöüÄÖÜß]*\)\/\([a-zA-ZäöüÄÖÜß]*\)\,/\\makecell[l]{\1 \\\\ \2}\,/g')
 
 if [[ $choosen_file == "verb.csv" ]] ; then
 	echo "$(
-		echo $header | awk -F'[,]' '{print $1","$2","$3","$4","$5","$6","$7","$8","$9","$10}' && 
-		echo $data | awk -F'[,]' '{print "\\multirow{2}{*}{"$1"},\\multirow{2}{*}{"$2"},\\multirow{2}{*}{"$3"},\\multirow{2}{*}{"$4"},"$5","$6","$7","$8","$9","$10"\n"",,,,"$11","$12","$13","$14","$15","$16}'
+		echo $header | awk -F'[,]'	'{print $1","										$2","					$3","					$4","	"Perfekt,"						"Präsen,"	"Konjunktiv I,"	"Präteritum,"	"Konjunktiv II"}' && 
+		echo $data | awk -F'[,]'	'{print "\\multirow{6}{*}{"$1"},\\multirow{6}{*}{"	$2"},\\multirow{6}{*}{"	$3"},\\multirow{6}{*}{"	$4"},\\multirow{6}{*}{"$29" "$30"},"	$5","		$11","			$17","			$23	}'
+		echo $data | awk -F'[,]'	'{print 																							",,,,"							","		$6","		$12","			$18","			$24	}'
+		echo $data | awk -F'[,]'	'{print																								",,,,"							","		$7","		$13","			$19","			$25	}'
+		echo $data | awk -F'[,]'	'{print																								",,,,"							","		$8","		$14","			$20","			$26	}'
+		echo $data | awk -F'[,]'	'{print																								",,,,"							","		$9","		$15","			$21","			$27	}'
+		echo $data | awk -F'[,]'	'{print																								",,,,"							","		$10","		$16","			$22","			$28	}'
 	)" > ~/.cache/vokab/vokab.csv
 else
 	echo "$(echo $header && echo $data)" > ~/.cache/vokab/vokab.csv
 fi
+#cat ~/.cache/vokab/vokab.csv
+#exit
 
 cat << EOF > ~/.cache/vokab/vokab.tex
 \\documentclass[varwidth=\\maxdimen,margin=5mm]{standalone}

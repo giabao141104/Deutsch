@@ -1,139 +1,164 @@
-Verb,IPA,regel,trennbar,ich,du,er/sie/es,wir,ihr,sie/Sie,ich,du,er/sie/es,wir,ihr,sie/Sie,Typs
-hören,ˈhøːʁən,1,TRENNBAR,höre,hörst,hört,hören,hört,hören,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-wiederholen,ˌviːdɐˈhoːlən,1,0,wiederhole,wiederholst,wiederholt,wiederholen,wiederholt,wiederholen,wiederholte,wiederholtest,wiederholte,wiederholten,wiederholtet,wiederholten,*
-lesen,ˈleːzn̩,0,-,lese,l[ie]st,l[ie]st,lesen,lest,lesen,l[a],l[a]sest/l[a]st,l[a]s,l[a]sen,l[a]st,l[a]sen,de
-sprechen,ˈʃpʁɛçn̩,0,TRENNBAR,spreche,spr[i]chst,spr[i]cht,sprechen,sprecht,sprechen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-schreiben,ˈʃʁaɪ̯bn̩,1,TRENNBAR,schreibe,schreibst,schreibt,schreiben,schreibt,schreiben,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-berichten,bəˈʁɪçtn̩,1,TRENNBAR,berichte,berichtest,berichtet,berichten,berichtet,berichten,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-fragen,ˈfʁaːɡn̩,1,TRENNBAR,frage,fragst,fragt,fragen,fragt,fragen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-spielen,ˈʃpiːlən,1,TRENNBAR,spiele,spielst,spielt,spielen,spielt,spielen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-arbeiten,ˈaʁbaɪ̯tn̩,1,TRENNBAR,arbeite,arbeitest,arbeitet,arbeiten,arbeitet,arbeiten,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-suchen,ˈzuːxn̩,1,TRENNBAR,suche,suchst,sucht,suchen,sucht,suchen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-ordnen,ˈɔʁdnən,1,TRENNBAR,ordne,ordnest,ordnet,ordnen,ordnet,ordnen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-ergänzen,ɛɐ̯ˈɡɛnt͡sn̩,1,TRENNBAR,ergänze,ergänzt,ergänzt,ergänzen,ergänzt,ergänzen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-markieren,maʁˈkiːʁən,1,TRENNBAR,markiere,markierst,markiert,markieren,markiert,markieren,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-unterstreichen,ˌʊntɐˈʃtʁaɪ̯çn̩,0,TRENNBAR,unterstreiche,unterstreichst,unterstreicht,unterstreichen,unterstreicht,unterstreichen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-buchstabieren,ˌbuːxʃtaˈbiːʁən,1,TRENNBAR,buchstabiere,buchstabierst,buchstabiert,buchstabieren,buchstabiert,buchstabieren,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-formulieren,fɔʁmuˈliːʁən,1,TRENNBAR,formuliere,formulierst,formuliert,formulieren,formuliert,formulieren,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-bilden,ˈbɪldn̩,1,TRENNBAR,bilde,bildest,bildet,bilden,bildet,bilden,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-achten,ˈaxtn̩,1,TRENNBAR,achte,achtest,achtet,achten,achtet,achten,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-formen,ˈfɔʁmən,1,TRENNBAR,forme,formst,formt,formen,formt,formen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-tauschen,ˈtaʊ̯ʃn̩,1,TRENNBAR,tausche,tauschst,tauscht,tauschen,tauscht,tauschen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-kreuzen,ˈkʁɔɪ̯t͡sn̩,1,TRENNBAR,kreuze,kreuzt,kreuzt,kreuzen,kreuzt,kreuzen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-notieren,noˈtiːʁən,1,TRENNBAR,notiere,notierst,notiert,notieren,notiert,notieren,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-heißen,ˈhaɪ̯sn̩,0,TRENNBAR,heiße,heißt,heißt,heißen,heißt,heißen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-verstehen,fɛɐ̯ˈʃteːən,0,-,verstehe,verstehst,versteht,verstehen,versteht,verstehen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-kommen,ˈkɔmən,0,TRENNBAR,komme,kommst,kommt,kommen,kommt,kommen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-sein,zaɪ̯n,0,TRENNBAR,bin,bist,ist,sind,seid,sind,war,warst,war,waren,wart,waren,*
-wohnen,ˈvoːnən,1,TRENNBAR,wohne,wohnst,wohnt,wohnen,wohnt,wohnen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-lernen,ˈlɛʁnən,1,TRENNBAR,lerne,lernst,lernt,lernen,lernt,lernen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-kochen,ˈkɔxn̩,1,TRENNBAR,koche,kochst,kocht,kochen,kocht,kochen,kochte,kochtest,kochte,kochten,kochtet,kochten,de
-fotografieren,fotoɡʁaˈfiːʁən,1,TRENNBAR,fotografiere,fotografierst,fotografiert,fotografieren,fotografiert,fotografieren,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-schwimmen,ˈʃvɪmən,0,TRENNBAR,schwimme,schwimmst,schwimmt,schwimmen,schwimmt,schwimmen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-tanzen,ˈtant͡sn̩,1,-,tanze,tanzt,tanzt,tanzen,tanzt,tanzen,tanzte,tanztest,tanzte,tanzten,tanztet,tanzten,Lehnwort.fr
-machen,ˈmaxn̩,1,TRENNBAR,mache,machst,macht,machen,macht,machen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-sagen,ˈzaːɡn̩,1,TRENNBAR,sage,sagst,sagt,sagen,sagt,sagen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-zeigen,ˈt͡saɪ̯ɡn̩,1,TRENNBAR,zeige,zeigst,zeigt,zeigen,zeigt,zeigen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-malen,ˈmaːlən,1,TRENNBAR,male,malst,malt,malen,malt,malen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-bedienen,bəˈdiːnən,1,TRENNBAR,bediene,bedienst,bedient,bedienen,bedient,bedienen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-untersuchen,ˌʊntɐˈzuːxn̩,1,TRENNBAR,untersuche,untersuchst,untersucht,untersuchen,untersucht,untersuchen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-entwickeln,ɛntˈvɪkl̩n,1,TRENNBAR,entwickele,entwickelst,entwickelt,entwickeln,entwickelt,entwickeln,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-unterrichten,ˌʊntɐˈʁɪçtn̩,1,0,unterrichte,unterrichtest,unterrichtet,unterrichten,unterrichtet,unterrichten,unterrichtete,unterrichtetest,unterrichtete,unterrichteten,unterrichtetet,unterrichteten,*
-präsentieren,pʁɛzɛnˈtiːʁən,1,-,präsentiere,präsentierst,präsentiert,präsentieren,präsentiert,präsentieren,ICH,DU,ERSIEES,WIR,IHR,SIE,Lehnwort.fr
-konstruieren,kɔnstʁuˈiːʁən,1,TRENNBAR,konstruiere,konstruierst,konstruiert,konstruieren,konstruiert,konstruieren,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-besprechen,bəˈʃpʁɛçn̩,0,TRENNBAR,bespreche,besprichst,bespricht,besprechen,besprecht,besprechen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-haben,ˈhaːbn̩,0,TRENNBAR,habe,hast,hat,haben,habt,haben,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-leiten,ˈlaɪ̯tn̩,1,TRENNBAR,leite,leitest,leitet,leiten,leitet,leiten,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-einleiten,ˈaɪ̯nˌlaɪ̯tn̩,1,TRENNBAR,einleite,einleitest,einleitet,einleiten,einleitet,einleiten,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-studieren,ʃtuˈdiːʁən,1,TRENNBAR,studiere,studierst,studiert,studieren,studiert,studieren,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-geben,ˈɡeːbn̩,0,TRENNBAR,gebe,g[i]bst,g[i]bt,geben,gebt,geben,gab,gabst,gab,gaben,gabt,gaben,*
-liegen,ˈliːɡn̩,0,TRENNBAR,liege,liegst,liegt,liegen,liegt,liegen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-lieben,ˈliːbn̩,1,TRENNBAR,liebe,liebst,liebt,lieben,liebt,lieben,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-leben,ˈleːbn̩,1,TRENNBAR,lebe,lebst,lebt,leben,lebt,leben,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-vergleichen,fɛɐ̯ˈɡlaɪ̯çn̩,0,TRENNBAR,vergleiche,vergleichst,vergleicht,vergleichen,vergleicht,vergleichen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-kennen,ˈkɛnən,0,TRENNBAR,kenne,kennst,kennt,kennen,kennt,kennen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-nennen,ˈnɛnən,0,TRENNBAR,nenne,nennst,nennt,nennen,nennt,nennen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-trinken,ˈtʁɪŋkn̩,0,TRENNBAR,trinke,trinkst,trinkt,trinken,trinkt,trinken,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-essen,ˈɛsn̩,0,TRENNBAR,esse,[i]sst,[i]sst,essen,esst,essen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-bezahlen,bəˈt͡saːlən,1,TRENNBAR,bezahle,bezahlst,bezahlt,bezahlen,bezahlt,bezahlen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-besuchen,bəˈzuːxn̩,1,TRENNBAR,besuche,besuchst,besucht,besuchen,besucht,besuchen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-reden,ˈʁeːdn̩,1,TRENNBAR,rede,redest,redet,reden,redet,reden,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-gehen,ˈɡeːən,0,TRENNBAR,gehe,gehst,geht,gehen,geht,gehen,g[ing],g[ing]st,g[ing],g[ing]en,g[ing]t,g[ing]en,de
-übernachten,yːbɐˈnaxtn̩,1,TRENNBAR,übernachte,übernachtest,übernachtet,übernachten,übernachtet,übernachten,ICH,DU,ERSIEES,WIR,IHR,SIE,Derivation
-ergänzen,ɛɐ̯ˈɡɛnt͡sn̩,1,TRENNBAR,ergänze,ergänzt,ergänzt,ergänzen,ergänzt,ergänzen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-nehmen,ˈneːmən,0,TRENNBAR,nehme,n[i]mmst,n[i]mmt,nehmen,nehmt,nehmenen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-brauchen,ˈbʁaʊ̯xn̩,1,TRENNBAR,brauche,brauchst,braucht,brauchen,braucht,brauchen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-mögen,ˈmøːɡn̩,0,-,m[a]g,m[a]gst,m[a]g,mögen,mögt,mögen,mochte,DU,ERSIEES,WIR,IHR,SIE,Modalverb.Infinitiv
-trennen,ˈtʁɛnən,1,TRENNBAR,trenne,trennst,trennt,trennen,trennt,trennen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-zahlen,ˈt͡saːlən,1,TRENNBAR,zahle,zahlst,zahlt,zahlen,zahlt,zahlen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-bestellen,bəˈʃtɛlən,1,0,bestelle,bestellst,bestellt,bestellen,bestellt,bestellen,bestellte,bestelltest,bestellte,bestellten,bestelltet,bestellten,Ableitung.be-
-antworten,ˈantˌvɔʁtn̩,1,TRENNBAR,antworte,antwortest,antwortet,antworten,antwortet,antworten,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-finden,ˈfɪndn̩,0,TRENNBAR,finde,findest,findet,finden,findet,finden,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-hängen,ˈhɛŋən,1,TRENNBAR,hänge,hängst,hängt,hängen,hängt,hängen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-stimmen,ˈʃtɪmən,1,TRENNBAR,stimme,stimmst,stimmt,stimmen,stimmt,stimmen,ICH,DU,ERSIEES,WIR,IHR,SIE,*
-parken,ˈpaʁkn̩,1,TRENNBAR,parke,parkst,parkt,parken,parkt,parken,parkte,parktest,parkte,parkten,parktet,parkten,Fremdwort.en
-kaufen,ˈkaʊ̯fn̩,1,-,kaufe,kaufst,kauft,kaufen,kauft,kaufen,kaufte,kauftest,kaufte,kauften,kauftet,kauften,de
-fahren,ˈfaːʁən,0,TRENNBAR,fahre,f[ä]hrst,f[ä]hrt,fahren,fahrt,fahren,f[u]hr,f[u]hrst,f[u]hr,f[u]hren,f[u]hrt,f[u]hren,*
-sehen,ˈzeːən,0,TRENNBAR,sehe,s[ie]hst,s[ie]ht,sehen,seht,sehen,s[a]h,s[a]hst,s[a]h,s[a]hen,s[a]ht,s[a]hen,*
-reservieren,ʁezɛʁˈviːʁən,1,TRENNBAR,reserviere,reservierst,reserviert,reservieren,reserviert,reservieren,reservierte,reserviertest,reservierte,reservierten,reserviertet,reservierten,Fremdwort.fr
-kosten,ˈkɔstn̩,1,TRENNBAR,koste,kostest,kostet,kosten,kostet,kosten,kostete,kostetest,kostete,kosteten,kostetet,kosteten,*
-angeben,ˈanˌɡeːbn̩,0,TRENNBAR,gebe an,g[i]bst an,g[i]bt an,geben an,gebt an,geben an,g[a]b an,g[a]bst an,g[a]b an,g[a]ben an,g[a]bt an,g[a]ben an,*
-bleiben,ˈblaɪ̯bn̩,0,TRENNBAR,bleibe,bleibst,bleibt,bleiben,bleibt,bleiben,bl[ie]b,bl[ie]bst,bl[ie]b,bl[ie]ben,bl[ie]bt,bl[ie]ben,*
-reisen,ˈʁaɪ̯zn̩,1,-,reise,reist,reist,reisen,reist,reisen,reiste,reistest,reiste,reisten,reistet,reisten,*
-anreisen,ˈanˌʁaɪ̯zn̩,1,1,reise an,reist an,reist an,reisen an,reist an,reisen an,reiste an,reistest an,reiste an,reisten an,reistet an,reisten an,Ableitung.an-
-abreisen,ˈapˌʁaɪ̯zn̩,1,1,reise ab,reist ab,reist ab,reisen ab,reist ab,reisen ab,reiste ab,reistest ab,reiste ab,reisten ab,reistet ab,reisten ab,Ableitung.ab-
-starten,ˈʃtaʁtn̩,1,-,starte,startest,starte,starten,startet,starten,startete,startetest,startete,starteten,startetet,starteten,Lehnwort.en
-landen,ˈlandn̩,1,-,lande,landest,landet,landen,landet,landen,landete,landetest,landete,landeten,landetet,landeten,
-lösen,ˈløːzn̩,1,-,löse,löst,löst,lösen,löst,lösen,löste,löstest,löste,lösten,löstet,lösten,Ableitung.-en:Ableitung.Umlaut
-regnen,ˈʁeːɡnən,1,-,regne,regnest,regnet,regnen,regnet,regnen,regnete,regnetest,regnete,regneten,regnetet,regneten,Ableitung.Konversion
-treffen,ˈtʁɛfn̩,0,-,treffe,tr[i]ffst,tr[i]fft,treffen,trefft,treffen,tr[af],tr[af]st,tr[af],tr[af]en,tr[af]t,tr[af]en,*
-vereinen,fɛɐ̯ˈʔaɪ̯nən,1,0,vereine,vereinst,vereint,vereinen,vereint,vereinen,vereinte,vereintest,vereinte,vereinten,vereintet,vereinten,Ableitung.ver-
-einen,ˈaɪ̯nən,1,-,eine,einst,eint,einen,eint,einen,einte,eintest,einte,einten,eintet,einten,Ableitung.Konversion
-raten,ˈʁaːtn̩,0,-,rate,r[ä]tst,r[ä]t,raten,ratet,raten,r[ie]t,r[ie]test,r[ie]t,r[ie]ten,r[ie]tet,r[ie]ten,de
-abheben,ˈapˌheːbn̩,0,1,hebe ab,hebst ab,hebt ab,heben ab,hebt ab,heben ab,h[o]b/h[u]b ab,h[o]bst/h[u]bst ab,h[o]b/h[u]b ab,h[o]ben/h[u]ben ab,h[o]bt/h[u]bt ab,h[o]ben/h[u]ben ab,Ableitung.ab-
-heben,ˈheːbn̩,0,-,hebe,hebst,hebt,heben,hebt,heben,h[o]b/h[u]b,h[o]bst/h[u]bst,h[o]b/h[u]b,h[o]ben/h[u]ben,h[o]bt/h[u]bt,h[o]ben/h[u]ben,de
-handeln,ˈhandl̩n,1,-,handle/handel/handele,handelst,handelt,handeln,handelt,handeln,handelte,handeltest,handelte,handelten,handeltet,handelten,de
-begrüßen,bəˈɡʁyːsn̩,1,0,begrüße,begrüßt,begrüßt,begrüßen,begrüßt,begrüßen,begrüßte,begrüßtest,begrüßte,begrüßten,begrüßtet,begrüßten,Ableitung.be-
-grüßen,ˈɡʁyːsn̩,1,-,grüße,grüßt,grüßt,grüßen,grüßt,grüßen,grüßte,grüßtest,grüßte,grüßten,grüßtet,grüßten,de
-einrichten,ˈaɪ̯nˌʁɪçtn̩,1,1,richte ein,richtest ein,richtet ein,richten ein,richtet ein,richten ein,richtete ein,richtetest ein,richtete ein,richteten ein,richtetet ein,richteten ein,Ableitung.ein-
-richten,ˈʁɪçtn̩,1,-,richte,richtest,richtet,richten,richtet,richten,richtete,richtetest,richtete,richteten,richtetet,richteten,de
-haushalten,ˈhaʊ̯sˌhaltn̩,1,-,haushalte,haushaltest,haushaltet,haushalten,haushaltet,haushalten,haushaltete,haushaltetest,haushaltete,haushalteten,haushaltetet,haushalteten,de
-verhalten,fɛɐ̯ˈhaltn̩,0,0,verhalte,verh[ä]ltst,verh[ä]lt,verhalten,verhaltet,verhalten,verh[ie]lt,verh[ie]ltest,verh[ie]lt,verh[ie]lten,verh[ie]ltet,verh[ie]lten,Ableitung.ver-
-halten,ˈhaltn̩,0,-,halte,h[ä]ltst,h[ä]lt,halten,haltet,halten,h[ie]lt,h[ie]ltest,h[ie]lt,h[ie]lten,h[ie]ltet,h[ie]lten,de
-bezeichnen,bəˈt͡saɪ̯çnən,1,0,bezeichne,bezeichnest,bezeichnet,bezeichnen,bezeichnet,bezeichnen,bezeichnete,bezeichnetest,bezeichnete,bezeichneten,bezeichnetet,bezeichneten,Ableitung.be-
-zeichnen,ˈt͡saɪ̯çnən,1,-,zeichne,zeichnest,zeichnet,zeichnen,zeichnet,zeichnen,zeichnete,zeichnetest,zeichnete,zeichneten,zeichnetet,zeichneten,Ableitung.Denominativ:Ableitung.Konversion
-frühstücken,ˈfʁyːˌʃtʏkn̩,1,0,frühstücke,frühstückst,frühstückt,frühstücken,frühstückt,frühstücken,frühstückte,frühstücktest,frühstückte,frühstückten,frühstücktet,frühstücken,Ableitung.-en:Ableitung.Konversion.Verbalisierung
-prüfen,ˈpʁyːfn̩,1,-,prüfe,prüfst,prüft,prüfen,prüft,prüfen,prüfte,prüftest,prüfte,prüften,prüftet,prüften,de
+Verb,IPA,regelmaßig,trennbar,ich.PS.I,du.PS.I,er/sie/es.PS.I,wir.PS.I,ihr.PS.I,sie/Sie.PS.I,ich.PS.K,du.PS.K,er/sie/es.PS.K,wir.PS.K,ihr.PS.K,sie/Sie.PS.K,ich.PT.I,du.PT.I,er/sie/es.PT.I,wir.PT.I,ihr.PT.I,sie/Sie.PT.I,ich.PT.K,du.PT.K,er/sie/es.PT.K,wir.PT.K,ihr.PT.K,sie/Sie.PT.K,Perfekt,Hilfsverb,Typs
+hören,ˈhøːʁən,True,TRENNBAR,höre,hörst,hört,hören,hört,hören,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,gehört,haben,*
+wiederholen,ˌviːdɐˈhoːlən,True,False,wiederhole,wiederholst,wiederholt,wiederholen,wiederholt,wiederholen,ICH,DU,ERSIEES,WIR,IHR,SIE,wiederholte,wiederholtest,wiederholte,wiederholten,wiederholtet,wiederholten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+lesen,ˈleːzn̩,False,Not,lese,l[ie]st,l[ie]st,lesen,lest,lesen,ICH,DU,ERSIEES,WIR,IHR,SIE,l[a],l[a]sest/l[a]st,l[a]s,l[a]sen,l[a]st,l[a]sen,ICH,DU,ERSIEES,WIR,IHR,SIE,gelesen,haben,de
+sprechen,ˈʃpʁɛçn̩,False,Not,spreche,spr[i]chst,spr[i]cht,sprechen,sprecht,sprechen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,gespr[o]chen,haben,*
+schreiben,ˈʃʁaɪ̯bn̩,False,Not,schreibe,schreibst,schreibt,schreiben,schreibt,schreiben,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,geschr[ie]ben,haben,*
+berichten,bəˈʁɪçtn̩,True,TRENNBAR,berichte,berichtest,berichtet,berichten,berichtet,berichten,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+fragen,ˈfʁaːɡn̩,True,TRENNBAR,frage,fragst,fragt,fragen,fragt,fragen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+spielen,ˈʃpiːlən,True,TRENNBAR,spiele,spielst,spielt,spielen,spielt,spielen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,gespielt,haben,*
+arbeiten,ˈaʁbaɪ̯tn̩,True,TRENNBAR,arbeite,arbeitest,arbeitet,arbeiten,arbeitet,arbeiten,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,gearbeitet,haben,*
+suchen,ˈzuːxn̩,True,TRENNBAR,suche,suchst,sucht,suchen,sucht,suchen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+ordnen,ˈɔʁdnən,True,TRENNBAR,ordne,ordnest,ordnet,ordnen,ordnet,ordnen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+ergänzen,ɛɐ̯ˈɡɛnt͡sn̩,True,TRENNBAR,ergänze,ergänzt,ergänzt,ergänzen,ergänzt,ergänzen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+markieren,maʁˈkiːʁən,True,TRENNBAR,markiere,markierst,markiert,markieren,markiert,markieren,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+unterstreichen,ˌʊntɐˈʃtʁaɪ̯çn̩,False,TRENNBAR,unterstreiche,unterstreichst,unterstreicht,unterstreichen,unterstreicht,unterstreichen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+buchstabieren,ˌbuːxʃtaˈbiːʁən,True,TRENNBAR,buchstabiere,buchstabierst,buchstabiert,buchstabieren,buchstabiert,buchstabieren,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+formulieren,fɔʁmuˈliːʁən,True,TRENNBAR,formuliere,formulierst,formuliert,formulieren,formuliert,formulieren,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,formuliert,haben,*
+bilden,ˈbɪldn̩,True,Not,bilde,bildest,bildet,bilden,bildet,bilden,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+achten,ˈaxtn̩,True,TRENNBAR,achte,achtest,achtet,achten,achtet,achten,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+formen,ˈfɔʁmən,True,TRENNBAR,forme,formst,formt,formen,formt,formen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+tauschen,ˈtaʊ̯ʃn̩,True,TRENNBAR,tausche,tauschst,tauscht,tauschen,tauscht,tauschen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+kreuzen,ˈkʁɔɪ̯t͡sn̩,True,TRENNBAR,kreuze,kreuzt,kreuzt,kreuzen,kreuzt,kreuzen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+notieren,noˈtiːʁən,True,TRENNBAR,notiere,notierst,notiert,notieren,notiert,notieren,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+heißen,ˈhaɪ̯sn̩,False,TRENNBAR,heiße,heißt,heißt,heißen,heißt,heißen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+verstehen,fɛɐ̯ˈʃteːən,False,Not,verstehe,verstehst,versteht,verstehen,versteht,verstehen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+kommen,ˈkɔmən,False,TRENNBAR,komme,kommst,kommt,kommen,kommt,kommen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+sein,zaɪ̯n,False,Not,[bin],[bist],[ist],[sind],[seid],[sind],ICH,DU,ERSIEES,WIR,IHR,SIE,[war],[war]st,[war],[war]en,[war]t,[war]en,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de:Hilfsverb
+wohnen,ˈvoːnən,True,TRENNBAR,wohne,wohnst,wohnt,wohnen,wohnt,wohnen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,gewohnt,haben,*
+lernen,ˈlɛʁnən,True,Not,lerne,lernst,lernt,lernen,lernt,lernen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,gelernt,haben,*
+kochen,ˈkɔxn̩,True,TRENNBAR,koche,kochst,kocht,kochen,kocht,kochen,ICH,DU,ERSIEES,WIR,IHR,SIE,kochte,kochtest,kochte,kochten,kochtet,kochten,ICH,DU,ERSIEES,WIR,IHR,SIE,gekocht,haben,de
+fotografieren,fotoɡʁaˈfiːʁən,True,TRENNBAR,fotografiere,fotografierst,fotografiert,fotografieren,fotografiert,fotografieren,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+schwimmen,ˈʃvɪmən,False,TRENNBAR,schwimme,schwimmst,schwimmt,schwimmen,schwimmt,schwimmen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+tanzen,ˈtant͡sn̩,True,Not,tanze,tanzt,tanzt,tanzen,tanzt,tanzen,ICH,DU,ERSIEES,WIR,IHR,SIE,tanzte,tanztest,tanzte,tanzten,tanztet,tanzten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Lehnwort.fr
+machen,ˈmaxn̩,True,TRENNBAR,mache,machst,macht,machen,macht,machen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,gemacht,haben,*
+sagen,ˈzaːɡn̩,True,TRENNBAR,sage,sagst,sagt,sagen,sagt,sagen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+zeigen,ˈt͡saɪ̯ɡn̩,True,TRENNBAR,zeige,zeigst,zeigt,zeigen,zeigt,zeigen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+malen,ˈmaːlən,True,TRENNBAR,male,malst,malt,malen,malt,malen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,gemalt,haben,*
+bedienen,bəˈdiːnən,True,TRENNBAR,bediene,bedienst,bedient,bedienen,bedient,bedienen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+untersuchen,ˌʊntɐˈzuːxn̩,True,TRENNBAR,untersuche,untersuchst,untersucht,untersuchen,untersucht,untersuchen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,untersucht,haben,*
+entwickeln,ɛntˈvɪkl̩n,True,TRENNBAR,entwickele,entwickelst,entwickelt,entwickeln,entwickelt,entwickeln,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,entwickelt,haben,Ableitung.en-
+unterrichten,ˌʊntɐˈʁɪçtn̩,True,False,unterrichte,unterrichtest,unterrichtet,unterrichten,unterrichtet,unterrichten,ICH,DU,ERSIEES,WIR,IHR,SIE,unterrichtete,unterrichtetest,unterrichtete,unterrichteten,unterrichtetet,unterrichteten,ICH,DU,ERSIEES,WIR,IHR,SIE,unterrichtet,haben,*
+präsentieren,pʁɛzɛnˈtiːʁən,True,Not,präsentiere,präsentierst,präsentiert,präsentieren,präsentiert,präsentieren,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,präsentiert,haben,Lehnwort.fr
+konstruieren,kɔnstʁuˈiːʁən,True,TRENNBAR,konstruiere,konstruierst,konstruiert,konstruieren,konstruiert,konstruieren,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,konstruiert,haben,*
+besprechen,bəˈʃpʁɛçn̩,False,TRENNBAR,bespreche,besprichst,bespricht,besprechen,besprecht,besprechen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+haben,ˈhaːbn̩,False,Not,habe,[ha]st,[ha]t,haben,habt,haben,ICH,DU,ERSIEES,WIR,IHR,SIE,h[at]te,h[at]test,h[at]te,h[at]ten,h[at]tet,h[at]ten,h[ät]te,h[ät]test,h[ät]te,h[ät]ten,h[ät]tet,h[ät]ten,PERFEKT,HILFSVERB,de
+leiten,ˈlaɪ̯tn̩,True,TRENNBAR,leite,leitest,leitet,leiten,leitet,leiten,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+einleiten,ˈaɪ̯nˌlaɪ̯tn̩,True,TRENNBAR,einleite,einleitest,einleitet,einleiten,einleitet,einleiten,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+studieren,ʃtuˈdiːʁən,True,TRENNBAR,studiere,studierst,studiert,studieren,studiert,studieren,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,studiert,haben,*
+geben,ˈɡeːbn̩,False,TRENNBAR,gebe,g[i]bst,g[i]bt,geben,gebt,geben,ICH,DU,ERSIEES,WIR,IHR,SIE,gab,gabst,gab,gaben,gabt,gaben,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+liegen,ˈliːɡn̩,False,TRENNBAR,liege,liegst,liegt,liegen,liegt,liegen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+lieben,ˈliːbn̩,True,TRENNBAR,liebe,liebst,liebt,lieben,liebt,lieben,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+leben,ˈleːbn̩,True,TRENNBAR,lebe,lebst,lebt,leben,lebt,leben,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+vergleichen,fɛɐ̯ˈɡlaɪ̯çn̩,False,TRENNBAR,vergleiche,vergleichst,vergleicht,vergleichen,vergleicht,vergleichen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+kennen,ˈkɛnən,False,TRENNBAR,kenne,kennst,kennt,kennen,kennt,kennen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+nennen,ˈnɛnən,False,TRENNBAR,nenne,nennst,nennt,nennen,nennt,nennen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+trinken,ˈtʁɪŋkn̩,False,Not,trinke,trinkst,trinkt,trinken,trinkt,trinken,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,getr[u]nken,haben,de
+essen,ˈɛsn̩,False,TRENNBAR,esse,[i]sst,[i]sst,essen,esst,essen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ge[g]essen,haben,de
+bezahlen,bəˈt͡saːlən,True,TRENNBAR,bezahle,bezahlst,bezahlt,bezahlen,bezahlt,bezahlen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,bezahlt,haben,*
+besuchen,bəˈzuːxn̩,True,TRENNBAR,besuche,besuchst,besucht,besuchen,besucht,besuchen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+reden,ˈʁeːdn̩,True,TRENNBAR,rederedest,redet,reden,redet,reden,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,*,PERFEKT,HILFSVERB
+gehen,ˈɡeːən,False,Not,gehe,gehst,geht,gehen,geht,gehen,ICH,DU,ERSIEES,WIR,IHR,SIE,g[ing],g[ing]st,g[ing],g[ing]en,g[ing]t,g[ing]en,ICH,DU,ERSIEES,WIR,IHR,SIE,geg[ang]en,sein,de
+übernachten,yːbɐˈnaxtn̩,True,False,übernachte,übernachtest,übernachtet,übernachten,übernachtet,übernachten,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,übernachtet,haben,Ableitung.über-
+nehmen,ˈneːmən,False,Not,nehme,n[imm]st,n[imm]t,nehmen,nehmt,nehmen,ICH,DU,ERSIEES,WIR,IHR,SIE,n[a]hm,n[a]hmst,n[a]hm,n[a]hmen,n[a]hmt,n[a]hmen,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+brauchen,ˈbʁaʊ̯xn̩,True,TRENNBAR,brauche,brauchst,braucht,brauchen,braucht,brauchen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+mögen,ˈmøːɡn̩,False,Not,m[a]g,m[a]gst,m[a]g,mögen,mögt,mögen,ICH,DU,ERSIEES,WIR,IHR,SIE,mochte,mochtest,mochte,mochten,mochtet,mochten,möchte,möchtest,möchte,möchten,möchtet,möchten,PERFEKT,HILFSVERB,Modalverb.Infinitiv
+trennen,ˈtʁɛnən,True,TRENNBAR,trenne,trennst,trennt,trennen,trennt,trennen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+zahlen,ˈt͡saːlən,True,TRENNBAR,zahle,zahlst,zahlt,zahlen,zahlt,zahlen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+bestellen,bəˈʃtɛlən,True,False,bestelle,bestellst,bestellt,bestellen,bestellt,bestellen,ICH,DU,ERSIEES,WIR,IHR,SIE,bestellte,bestelltest,bestellte,bestellten,bestelltet,bestellten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.be-
+antworten,ˈantˌvɔʁtn̩,True,TRENNBAR,antworte,antwortest,antwortet,antworten,antwortet,antworten,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+finden,ˈfɪndn̩,False,Not,findefindest,findet,finden,findet,finden,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,*,gef[u]nden,haben,de
+hängen,ˈhɛŋən,True,TRENNBAR,hänge,hängst,hängt,hängen,hängt,hängen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+stimmen,ˈʃtɪmən,True,TRENNBAR,stimme,stimmst,stimmt,stimmen,stimmt,stimmen,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+parken,ˈpaʁkn̩,True,TRENNBAR,parke,parkst,parkt,parken,parkt,parken,ICH,DU,ERSIEES,WIR,IHR,SIE,parkte,parktest,parkte,parkten,parktet,parkten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Fremdwort.en
+kaufen,ˈkaʊ̯fn̩,True,Not,kaufe,kaufst,kauft,kaufen,kauft,kaufen,ICH,DU,ERSIEES,WIR,IHR,SIE,kaufte,kauftest,kaufte,kauften,kauftet,kauften,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+fahren,ˈfaːʁən,False,TRENNBAR,fahre,f[ä]hrst,f[ä]hrt,fahren,fahrt,fahren,ICH,DU,ERSIEES,WIR,IHR,SIE,f[u]hr,f[u]hrst,f[u]hr,f[u]hren,f[u]hrt,f[u]hren,ICH,DU,ERSIEES,WIR,IHR,SIE,gefahren,sein/haben,*
+sehen,ˈzeːən,False,TRENNBAR,sehe,s[ie]hst,s[ie]ht,sehen,seht,sehen,ICH,DU,ERSIEES,WIR,IHR,SIE,s[a]h,s[a]hst,s[a]h,s[a]hen,s[a]ht,s[a]hen,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+reservieren,ʁezɛʁˈviːʁən,True,TRENNBAR,reserviere,reservierst,reserviert,reservieren,reserviert,reservieren,ICH,DU,ERSIEES,WIR,IHR,SIE,reservierte,reserviertest,reservierte,reservierten,reserviertet,reservierten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Fremdwort.fr
+kosten,ˈkɔstn̩,True,TRENNBAR,koste,kostest,kostet,kosten,kostet,kosten,ICH,DU,ERSIEES,WIR,IHR,SIE,kostete,kostetest,kostete,kosteten,kostetet,kosteten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+angeben,ˈanˌɡeːbn̩,False,TRENNBAR,gebe an,g[i]bst an,g[i]bt an,geben an,gebt an,geben an,ICH,DU,ERSIEES,WIR,IHR,SIE,g[a]b an,g[a]bst an,g[a]b an,g[a]ben an,g[a]bt an,g[a]ben an,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+bleiben,ˈblaɪ̯bn̩,False,TRENNBAR,bleibe,bleibst,bleibt,bleiben,bleibt,bleiben,ICH,DU,ERSIEES,WIR,IHR,SIE,bl[ie]b,bl[ie]bst,bl[ie]b,bl[ie]ben,bl[ie]bt,bl[ie]ben,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+reisen,ˈʁaɪ̯zn̩,True,Not,reise,reist,reist,reisen,reist,reisen,ICH,DU,ERSIEES,WIR,IHR,SIE,reiste,reistest,reiste,reisten,reistet,reisten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+anreisen,ˈanˌʁaɪ̯zn̩,True,True,reise an,reist an,reist an,reisen an,reist an,reisen an,ICH,DU,ERSIEES,WIR,IHR,SIE,reiste an,reistest an,reiste an,reisten an,reistet an,reisten an,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.an-
+abreisen,ˈapˌʁaɪ̯zn̩,True,True,reise ab,reist ab,reist ab,reisen ab,reist ab,reisen ab,ICH,DU,ERSIEES,WIR,IHR,SIE,reiste ab,reistest ab,reiste ab,reisten ab,reistet ab,reisten ab,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.ab-
+starten,ˈʃtaʁtn̩,True,Not,starte,startest,starte,starten,startet,starten,ICH,DU,ERSIEES,WIR,IHR,SIE,startete,startetest,startete,starteten,startetet,starteten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Lehnwort.en
+landen,ˈlandn̩,True,Not,landelandest,landet,landen,landet,landen,ICH,DU,ERSIEES,WIR,IHR,SIE,landete,landetest,landete,landeten,landetet,landeten,ICH,DU,ERSIEES,WIR,IHR,SIE,*,PERFEKT,HILFSVERB
+lösen,ˈløːzn̩,True,Not,löse,löst,löst,lösen,löst,lösen,ICH,DU,ERSIEES,WIR,IHR,SIE,löste,löstest,löste,lösten,löstet,lösten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.-en:Ableitung.Umlaut
+regnen,ˈʁeːɡnən,True,Not,regne,regnest,regnet,regnen,regnet,regnen,ICH,DU,ERSIEES,WIR,IHR,SIE,regnete,regnetest,regnete,regneten,regnetet,regneten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.Konversion
+treffen,ˈtʁɛfn̩,False,Not,treffe,tr[i]ffst,tr[i]fft,treffen,trefft,treffen,ICH,DU,ERSIEES,WIR,IHR,SIE,tr[af],tr[af]st,tr[af],tr[af]en,tr[af]t,tr[af]en,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+vereinen,fɛɐ̯ˈʔaɪ̯nən,True,False,vereine,vereinst,vereint,vereinen,vereint,vereinen,ICH,DU,ERSIEES,WIR,IHR,SIE,vereinte,vereintest,vereinte,vereinten,vereintet,vereinten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.ver-
+einen,ˈaɪ̯nən,True,Not,eine,einst,eint,einen,eint,einen,ICH,DU,ERSIEES,WIR,IHR,SIE,einte,eintest,einte,einten,eintet,einten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.Konversion
+raten,ˈʁaːtn̩,False,Not,rate,r[ä]tst,r[ä]t,raten,ratet,raten,ICH,DU,ERSIEES,WIR,IHR,SIE,r[ie]t,r[ie]test,r[ie]t,r[ie]ten,r[ie]tet,r[ie]ten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+abheben,ˈapˌheːbn̩,False,True,hebe ab,hebst ab,hebt ab,heben ab,hebt ab,heben ab,ICH,DU,ERSIEES,WIR,IHR,SIE,h[o]b/h[u]b ab,h[o]bst/h[u]bst ab,h[o]b/h[u]b ab,h[o]ben/h[u]ben ab,h[o]bt/h[u]bt ab,h[o]ben/h[u]ben ab,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.ab-
+heben,ˈheːbn̩,False,Not,hebe,hebst,hebt,heben,hebt,heben,ICH,DU,ERSIEES,WIR,IHR,SIE,h[o]b/h[u]b,h[o]bst/h[u]bst,h[o]b/h[u]b,h[o]ben/h[u]ben,h[o]bt/h[u]bt,h[o]ben/h[u]ben,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+handeln,ˈhandl̩n,True,Not,handle/handel/handele,handelst,handelt,handeln,handelt,handeln,ICH,DU,ERSIEES,WIR,IHR,SIE,handelte,handeltest,handelte,handelten,handeltet,handelten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+begrüßen,bəˈɡʁyːsn̩,True,False,begrüße,begrüßt,begrüßt,begrüßen,begrüßt,begrüßen,ICH,DU,ERSIEES,WIR,IHR,SIE,begrüßte,begrüßtest,begrüßte,begrüßten,begrüßtet,begrüßten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.be-
+grüßen,ˈɡʁyːsn̩,True,Not,grüße,grüßt,grüßt,grüßen,grüßt,grüßen,ICH,DU,ERSIEES,WIR,IHR,SIE,grüßte,grüßtest,grüßte,grüßten,grüßtet,grüßten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+einrichten,ˈaɪ̯nˌʁɪçtn̩,True,True,richte ein,richtest ein,richtet ein,richten ein,richtet ein,richten ein,ICH,DU,ERSIEES,WIR,IHR,SIE,richtete ein,richtetest ein,richtete ein,richteten ein,richtetet ein,richteten ein,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.ein-
+richten,ˈʁɪçtn̩,True,Not,richte,richtest,richtet,richten,richtet,richten,ICH,DU,ERSIEES,WIR,IHR,SIE,richtete,richtetest,richtete,richteten,richtetet,richteten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+haushalten,ˈhaʊ̯sˌhaltn̩,True,Not,haushalte,haushaltest,haushaltet,haushalten,haushaltet,haushalten,ICH,DU,ERSIEES,WIR,IHR,SIE,haushaltete,haushaltetest,haushaltete,haushalteten,haushaltetet,haushalteten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+verhalten,fɛɐ̯ˈhaltn̩,False,False,verhalte,verh[ä]ltst,verh[ä]lt,verhalten,verhaltet,verhalten,ICH,DU,ERSIEES,WIR,IHR,SIE,verh[ie]lt,verh[ie]ltest,verh[ie]lt,verh[ie]lten,verh[ie]ltet,verh[ie]lten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.ver-
+halten,ˈhaltn̩,False,Not,halte,h[ä]ltst,h[ä]lt,halten,haltet,halten,ICH,DU,ERSIEES,WIR,IHR,SIE,h[ie]lt,h[ie]ltest,h[ie]lt,h[ie]lten,h[ie]ltet,h[ie]lten,ICH,DU,ERSIEES,WIR,IHR,SIE,gehalten,haben,de
+bezeichnen,bəˈt͡saɪ̯çnən,True,False,bezeichne,bezeichnest,bezeichnet,bezeichnen,bezeichnet,bezeichnen,ICH,DU,ERSIEES,WIR,IHR,SIE,bezeichnete,bezeichnetest,bezeichnete,bezeichneten,bezeichnetet,bezeichneten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.be-
+zeichnen,ˈt͡saɪ̯çnən,True,Not,zeichne,zeichnest,zeichnet,zeichnen,zeichnet,zeichnen,ICH,DU,ERSIEES,WIR,IHR,SIE,zeichnete,zeichnetest,zeichnete,zeichneten,zeichnetet,zeichneten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.Denominativ:Ableitung.Konversion
+frühstücken,ˈfʁyːˌʃtʏkn̩,True,False,frühstücke,frühstückst,frühstückt,frühstücken,frühstückt,frühstücken,ICH,DU,ERSIEES,WIR,IHR,SIE,frühstückte,frühstücktest,frühstückte,frühstückten,frühstücktet,frühstücken,ICH,DU,ERSIEES,WIR,IHR,SIE,gefrühstückt,haben,Ableitung.-en:Ableitung.Konversion.Verbalisierung
+prüfen,ˈpʁyːfn̩,True,Not,prüfe,prüfst,prüft,prüfen,prüft,prüfen,ICH,DU,ERSIEES,WIR,IHR,SIE,prüfte,prüftest,prüfte,prüften,prüftet,prüften,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
 nachfahren,
 zugehen,
-telefonieren,teləfoˈniːʁən,1,-,telefoniere,telefonierst,telefoniert,telefonieren,telefoniert,telefonieren,telefonierte,telefoniertest,telefonierte,telefonierten,telefoniertet,telefonierten,Ableitung.-ier:Ableitung.Konversion.
-beginnen,bəˈɡɪnən,0,-,beginne,beginnst,beginnt,beginnen,beginnt,beginnen,beg[a]nn,beg[a]nnst,beg[a]nn,beg[a]nnen,beg[a]nnt,beg[a]nnen,de
-dauern,ˈdaʊ̯ɐn,1,-,dauere,dauerst,dauert,dauern,dauert,dauern,dauerte,dauertest,dauerte,dauerten,dauertet,dauerten,Lehnwort.la,
-unternehmen,ˌʊntɐˈneːmən,0,0,unternehme,unternimmst,unternimmt,unternehmen,unternehmt,unternehmen,untern[a]hm,untern[a]hmst,untern[a]hm,untern[a]hmen,untern[a]hmt,untern[a]hmen,Ableitung.unter-
-können,ˈkœnən,0,-,k[a]nn,k[a]nnst,k[a]nn,können,könnt,können,k[o]nnte,k[o]nntest,k[o]nnte,k[o]nnten,k[o]nntet,k[o]nnten,Modalverb.Infinitiv
-ablaufen,ˈapˌlaʊ̯fn̩,0,1,laufe ab,l[äu]fst ab,l[äu]ft ab,laufen ab,lauft ab,laufen ab,l[ie]f ab,l[ie]fst ab,l[ie]f ab,l[ie]fen ab,l[ie]ft ab,l[ie]fen ab,Ableitung.ab-
-laufen,ˈlaʊ̯fn̩,0,-,laufe,l[äu]fst,l[äu]ft,laufen,lauft,laufen,l[ie]f,l[ie]fst,l[ie]f,l[ie]fen,l[ie]ft,l[ie]fen,
-stehen,ˈʃteːən,0,-,stehe,stehst,steht,stehen,steht,stehen,st[and],st[and]est,st[and],st[and]en,st[and]et,st[and]en,
-aufstehen,ˈaʊ̯fˌʃteːən,0,1,stehe auf,stehst auf,steht auf,stehen auf,steht auf,stehen auf,st[and] auf,st[and]est auf,st[and] auf,st[and]en auf,st[and]et auf,st[and]en auf,Ableitung.ver-
-analysieren,analyˈziːʁən,1,-,anallysiere,anallysierst,anallysiert,anallysieren,anallysiert,anallysieren,anallysierte,anallysiertest,anallysierte,anallysierten,anallysiertet,anallysierten,Ableitung.Konversion
-fangen,ˈfaŋən,0,-,fange,f[ä]ngst,f[ä]ngt,fangen,fangt,fangen,f[i]ng,f[i]ngst,f[i]ng,f[i]ngen,f[i]ngt,f[i]ngen,de
-anfangen,ˈanˌfaŋən,0,1,fange an,f[ä]ngst an,f[ä]ngt an,fangen an,fangt an,fangen an,f[i]ng an,f[i]ngst an,f[i]ng an,f[i]ngen an,f[i]ngt an,f[i]ngen an,Ableitung.an-
-rufen,ˈʁuːfn̩,0,-,rufe,rufst,ruft,rufen,ruft,rufen,r[ie]f,r[ie]fst,r[ie]f,r[ie]fen,r[ie]ft,r[ie]fen,de
-anrufen,ˈanˌʁuːfn̩,0,1,rufe an,rufst an,ruft an,rufen an,ruft an,rufen an,r[ie]f an,r[ie]fst an,r[ie]f an,r[ie]fen an,r[ie]ft an,r[ie]fen an,Ableitung.an-
-einkaufen,ˈaɪ̯nˌkaʊ̯fn̩,1,1,kaufe ein,kaufst ein,kauft ein,kaufen ein,kauft ein,kaufen ein,kaufte ein,kauftest ein,kaufte ein,kauften ein,kauftet ein,kauften ein,Ableitung.ein-
-vorlesen,ˈfoːɐ̯ˌleːzn̩,0,1,lese vor,l[ie]st vor,l[ie]st vor,lesen vor,lest vor,lesen vor,l[a] vor,l[a]sest/l[a]st vor,l[a]s vor,l[a]sen vor,l[a]st vor,l[a]sen vor,de
-sitzen,ˈzɪt͡sn̩,0,-,sitze,sitzt,sitzt,sitzen,sitzt,sitzen,s[aß],s[aß]est,s[aß],s[aß]en,s[aß]et,s[aß]en,de
-ausgehen,ˈfoːɐ̯ˌleːzn̩,0,1,gehe aus,gehst aus,geht aus,gehen aus,geht aus,gehen aus,g[ing] aus,g[ing]st aus,g[ing] aus,g[ing]en aus,g[ing]t aus,g[ing]en aus,Ableitung.aus-
-fernsehen,ˈfɛʁnˌzeːən,0,1,sehe fern,s[ie]hst fern,s[ie]ht fern,sehen fern,seht fern,sehen fern,s[a]h fern,s[a]hst fern,s[a]h fern,s[a]hen fern,s[a]ht fern,s[a]hen fern,Komposita.kein
-treiben,ˈtʁaɪ̯bn̩,-,treibe,treibst,treibt,treiben,treibt,treiben,tr[ie]b,tr[ie]bst,tr[ie]b,tr[ie]ben,tr[ie]bt,tr[ie]ben,de
-feiern,ˈfaɪ̯ɐn,-,feier/feiere/feire,feierst,feiert,feiern,feiert,feiern,feierte,feiertest,feierte,feierten,feiertet,feierten,de
-stellen,ˈʃtɛlən,1,-,stelle,stellst,stellt,stellen,stellt,stellen,stellte,stelltest,stellte,stellten,stelltet,stellten,de
-vorstellen,ˈfoːɐ̯ˌʃtɛlən,1,1,stelle vor,stellst vor,stellt vor,stellen vor,stellt vor,stellen vor,stellte vor,stelltest vor,stellte vor,stellten vor,stelltet vor,stellten vor,Ableitung.vor-
-dringen,ˈdʁɪŋən,0,-,dringe,dringst,dringt,dringen,dringt,dringen,dr[a]ng,dr[a]ngst,dr[a]ng,dr[a]ngen,dr[a]ngt,dr[a]ngen,de
-wiederholen,ˌviːdɐˈhoːlən,1,1,hole wieder,holst wieder,holt wieder,holen wieder,holt wieder,holen wieder,holte wieder,holtest wieder,holte wieder,holten wieder,holtet wieder,holten wieder,*
-fortschreiten,ˈfɔʁtˌʃʁaɪ̯tn̩,0,1,schreite fort,schreitest fort,schreitet fort,schreiten fort,schreitet fort,schreiten fort,schr[itt] fort,schr[itt]est fort,schr[itt] fort,schr[itt]en fort,schr[itt]et fort,schr[itt]en fort,Ableitung.fort-
-schreiten,ˈʃʁaɪ̯tn̩,0,-,schreite,schreitest,schreitet,schreiten,schreitet,schreiten,schr[itt],schr[itt]est,schr[itt],schr[itt]en,schr[itt]et,schr[itt]en,de
-öffnen,ˈœfnən,0,-,öffne,öffnest,öffnet,öffnen,öffnet,öffnen,öffnete,öffnetest,öffnete,öffneten,öffnetet,öffneten,*
-braten,ˈbʁaːtn̩,0,-,brate,br[ä]tst,br[ä]t,braten,bratet,braten,br[ie]t,br[ie]test,br[ie]t,br[ie]ten,br[ie]tet,br[ie]ten,de
-backen,ˈbakn̩,1,-,backe,backst,backt,backen,backt,backen,backte,backtest,backte,backten,backtet,backten,de
-schmecken,ˈʃmɛkn̩,1,-,schmecke,schmeckst,schmeckt,schmecken,schmeckt,schmecken,schmeckte,schmecktest,schmeckte,schmeckten,schmecktet,schmeckten,de
+telefonieren,teləfoˈniːʁən,True,Not,telefoniere,telefonierst,telefoniert,telefonieren,telefoniert,telefonieren,ICH,DU,ERSIEES,WIR,IHR,SIE,telefonierte,telefoniertest,telefonierte,telefonierten,telefoniertet,telefonierten,ICH,DU,ERSIEES,WIR,IHR,SIE,telefoniert,haben,Ableitung.-ier:Ableitung.Konversion
+beginnen,bəˈɡɪnən,False,Not,beginne,beginnst,beginnt,beginnen,beginnt,beginnen,ICH,DU,ERSIEES,WIR,IHR,SIE,beg[a]nn,beg[a]nnst,beg[a]nn,beg[a]nnen,beg[a]nnt,beg[a]nnen,ICH,DU,ERSIEES,WIR,IHR,SIE,beg[o]nnen,haben,de
+dauern,ˈdaʊ̯ɐn,True,Not,dauere,dauerst,dauert,dauern,dauert,dauern,SIE,ICH,DU,ERSIEES,WIR,IHR,dauerte,dauertest,dauerte,dauerten,dauertet,dauerten,ICH,DU,ERSIEES,WIR,IHR,SIE,gedauert,haben,Lehnwort.la
+unternehmen,ˌʊntɐˈneːmən,False,False,unternehme,unternimmst,unternimmt,unternehmen,unternehmt,unternehmen,ICH,DU,ERSIEES,WIR,IHR,SIE,untern[a]hm,untern[a]hmst,untern[a]hm,untern[a]hmen,untern[a]hmt,untern[a]hmen,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.unter-
+können,ˈkœnən,False,Not,k[a]nn,k[a]nnst,k[a]nn,können,könnt,können,ICH,DU,ERSIEES,WIR,IHR,SIE,k[o]nnte,k[o]nntest,k[o]nnte,k[o]nnten,k[o]nntet,k[o]nnten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Modalverb.Infinitiv
+ablaufen,ˈapˌlaʊ̯fn̩,False,True,laufe ab,l[äu]fst ab,l[äu]ft ab,laufen ab,lauft ab,laufen ab,ICH,DU,ERSIEES,WIR,IHR,SIE,l[ie]f ab,l[ie]fst ab,l[ie]f ab,l[ie]fen ab,l[ie]ft ab,l[ie]fen ab,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.ab-
+laufen,ˈlaʊ̯fn̩,False,Not,laufe,l[äu]fst,l[äu]ft,laufen,lauft,laufen,ICH,DU,ERSIEES,WIR,IHR,SIE,l[ie]f,l[ie]fst,l[ie]f,l[ie]fen,l[ie]ft,l[ie]fen,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+stehen,ˈʃteːən,False,Not,stehe,stehst,steht,stehen,steht,stehen,ICH,DU,ERSIEES,WIR,IHR,SIE,st[and],st[and]est,st[and],st[and]en,st[and]et,st[and]en,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+aufstehen,ˈaʊ̯fˌʃteːən,False,True,stehe auf,stehst auf,steht auf,stehen auf,steht auf,stehen auf,ICH,DU,ERSIEES,WIR,IHR,SIE,st[and] auf,st[and]est auf,st[and] auf,st[and]en auf,st[and]et auf,st[and]en auf,ICH,DU,ERSIEES,WIR,IHR,SIE,aufgest[and]en,sein/haben,Ableitung.ver-
+analysieren,analyˈziːʁən,True,Not,anallysiere,anallysierst,anallysiert,anallysieren,anallysiert,anallysieren,ICH,DU,ERSIEES,WIR,IHR,SIE,anallysierte,anallysiertest,anallysierte,anallysierten,anallysiertet,anallysierten,ICH,DU,ERSIEES,WIR,IHR,SIE,analysiert,haben,Ableitung.Konversion
+fangen,ˈfaŋən,False,Not,fange,f[ä]ngst,f[ä]ngt,fangen,fangt,fangen,ICH,DU,ERSIEES,WIR,IHR,SIE,f[i]ng,f[i]ngst,f[i]ng,f[i]ngen,f[i]ngt,f[i]ngen,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+anfangen,ˈanˌfaŋən,False,True,fange an,f[ä]ngst an,f[ä]ngt an,fangen an,fangt an,fangen an,ICH,DU,ERSIEES,WIR,IHR,SIE,f[i]ng an,f[i]ngst an,f[i]ng an,f[i]ngen an,f[i]ngt an,f[i]ngen an,ICH,DU,ERSIEES,WIR,IHR,SIE,angefangen,haben,Ableitung.an-
+rufen,ˈʁuːfn̩,False,Not,rufe,rufst,ruft,rufen,ruft,rufen,ICH,DU,ERSIEES,WIR,IHR,SIE,r[ie]f,r[ie]fst,r[ie]f,r[ie]fen,r[ie]ft,r[ie]fen,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+anrufen,ˈanˌʁuːfn̩,False,True,rufe an,rufst an,ruft an,rufen an,ruft an,rufen an,ICH,DU,ERSIEES,WIR,IHR,SIE,r[ie]f an,r[ie]fst an,r[ie]f an,r[ie]fen an,r[ie]ft an,r[ie]fen an,ICH,DU,ERSIEES,WIR,IHR,SIE,angerufen,haben,Ableitung.an-
+einkaufen,ˈaɪ̯nˌkaʊ̯fn̩,True,True,kaufe ein,kaufst ein,kauft ein,kaufen ein,kauft ein,kaufen ein,ICH,DU,ERSIEES,WIR,IHR,SIE,kaufte ein,kauftest ein,kaufte ein,kauften ein,kauftet ein,kauften ein,ICH,DU,ERSIEES,WIR,IHR,SIE,eingekauft,haben,Ableitung.ein-
+vorlesen,ˈfoːɐ̯ˌleːzn̩,False,True,lese vor,l[ie]st vor,l[ie]st vor,lesen vor,lest vor,lesen vor,ICH,DU,ERSIEES,WIR,IHR,SIE,l[a] vor,l[a]sest/l[a]st vor,l[a]s vor,l[a]sen vor,l[a]st vor,l[a]sen vor,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+sitzen,ˈzɪt͡sn̩,False,Not,sitze,sitzt,sitzt,sitzen,sitzt,sitzen,ICH,DU,ERSIEES,WIR,IHR,SIE,s[aß],s[aß]est,s[aß],s[aß]en,s[aß]et,s[aß]en,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+ausgehen,ˈfoːɐ̯ˌleːzn̩,False,True,gehe aus,gehst aus,geht aus,gehen aus,geht aus,gehen aus,ICH,DU,ERSIEES,WIR,IHR,SIE,g[ing] aus,g[ing]st aus,g[ing] aus,g[ing]en aus,g[ing]t aus,g[ing]en aus,ICH,DU,ERSIEES,WIR,IHR,SIE,ausgeg[ang]en,sein,Ableitung.aus-
+fernsehen,ˈfɛʁnˌzeːən,False,True,sehe fern,s[ie]hst fern,s[ie]ht fern,sehen fern,seht fern,sehen fern,ICH,DU,ERSIEES,WIR,IHR,SIE,s[a]h fern,s[a]hst fern,s[a]h fern,s[a]hen fern,s[a]ht fern,s[a]hen fern,ICH,DU,ERSIEES,WIR,IHR,SIE,ferngesehen,haben,Komposita.kein
+treiben,ˈtʁaɪ̯bn̩,Not,treibe,treibst,treibt,treiben,treibt,treiben,tr[ie]b,ICH,DU,ERSIEES,WIR,IHR,SIE,tr[ie]bst,tr[ie]b,tr[ie]ben,tr[ie]bt,tr[ie]ben,ICH,DU,ERSIEES,WIR,IHR,SIE,de,PERFEKT,HILFSVERB,
+feiern,ˈfaɪ̯ɐn,Not,feier/feiere/feire,feierst,feiert,feiern,feiert,feiern,feierte,ICH,DU,ERSIEES,WIR,IHR,SIE,feiertest,feierte,feierten,feiertet,feierten,ICH,DU,ERSIEES,WIR,IHR,SIE,de,gefeiert,haben,
+stellen,ˈʃtɛlən,True,Not,stelle,stellst,stellt,stellen,stellt,stellen,ICH,DU,ERSIEES,WIR,IHR,SIE,stellte,stelltest,stellte,stellten,stelltet,stellten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+vorstellen,ˈfoːɐ̯ˌʃtɛlən,True,True,stelle vor,stellst vor,stellt vor,stellen vor,stellt vor,stellen vor,ICH,DU,ERSIEES,WIR,IHR,SIE,stellte vor,stelltest vor,stellte vor,stellten vor,stelltet vor,stellten vor,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.vor-
+dringen,ˈdʁɪŋən,False,Not,dringe,dringst,dringt,dringen,dringt,dringen,ICH,DU,ERSIEES,WIR,IHR,SIE,dr[a]ng,dr[a]ngst,dr[a]ng,dr[a]ngen,dr[a]ngt,dr[a]ngen,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+wiederholen,ˌviːdɐˈhoːlən,True,True,hole wieder,holst wieder,holt wieder,holen wieder,holt wieder,holen wieder,ICH,DU,ERSIEES,WIR,IHR,SIE,holte wieder,holtest wieder,holte wieder,holten wieder,holtet wieder,holten wieder,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,*
+fortschreiten,ˈfɔʁtˌʃʁaɪ̯tn̩,False,True,schreite fort,schreitest fort,schreitet fort,schreiten fort,schreitet fort,schreiten fort,ICH,DU,ERSIEES,WIR,IHR,SIE,schr[itt] fort,schr[itt]est fort,schr[itt] fort,schr[itt]en fort,schr[itt]et fort,schr[itt]en fort,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.fort-
+schreiten,ˈʃʁaɪ̯tn̩,False,Not,schreite,schreitest,schreitet,schreiten,schreitet,schreiten,ICH,DU,ERSIEES,WIR,IHR,SIE,schr[itt],schr[itt]est,schr[itt],schr[itt]en,schr[itt]et,schr[itt]en,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+öffnen,ˈœfnən,True,Not,öffne,öffnest,öffnet,öffnen,öffnet,öffnen,ICH,DU,ERSIEES,WIR,IHR,SIE,öffnete,öffnetest,öffnete,öffneten,öffnetet,öffneten,ICH,DU,ERSIEES,WIR,IHR,SIE,geöffnet,haben,*
+braten,ˈbʁaːtn̩,False,Not,brate,br[ä]tst,br[ä]t,braten,bratet,braten,ICH,DU,ERSIEES,WIR,IHR,SIE,br[ie]t,br[ie]test,br[ie]t,br[ie]ten,br[ie]tet,br[ie]ten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+backen,ˈbakn̩,True,Not,backe,backst,backt,backen,backt,backen,ICH,DU,ERSIEES,WIR,IHR,SIE,backte,backtest,backte,backten,backtet,backten,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,de
+schmecken,ˈʃmɛkn̩,True,Not,schmecke,schmeckst,schmeckt,schmecken,schmeckt,schmecken,ICH,DU,ERSIEES,WIR,IHR,SIE,schmeckte,schmecktest,schmeckte,schmeckten,schmecktet,schmeckten,ICH,DU,ERSIEES,WIR,IHR,SIE,geschmeckt,haben,de
+rechnen,ˈʁɛçnən,True,Not,rechne,rechnest,rechnet,rechnen,rechnet,rechnen,rechne,rechnest,rechne,rechnen,rechnet,rechnen,rechnete,rechnetest,rechnete,rechneten,rechnetet,rechneten,rechnete,rechnetest,rechnete,rechneten,rechnetet,rechneten,PERFEKT,HILFSVERB,de
+deuten,ˈdɔɪ̯tn̩,True,Not,deute,deutest,deutet,deuten,deutet,deuten,,,,,,,,,,,,,,,,,,,PERFEKT,HILFSVERB,de
+holen,ˈhoːlən,True,Not,hole,holst,holt,holen,holt,holen,,,,,,,,,,,,,,,,,,,PERFEKT,HILFSVERB,de
+anbieten,ˈanˌbiːtn̩,False,True,biete an,bietest an,bietet an,bieten an,bietet an,bieten an,,,,,,,,,,,,,,,,,,,PERFEKT,HILFSVERB,de
+mitkommen,ˈmɪtˌkɔmən,False,True,komme mit,kommst mit,kommt mit,kommen mit,kommt mit,kommen mit,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.mit-
+produzieren,pʁoduˈt͡siːʁən,True,Not,produziere,produzierst,produziert,produzieren,produziert,produzieren,,,,,,,,,,,,,,,,,,,PERFEKT,HILFSVERB,Lehnwort.la
+aussehen,ˈaʊ̯sˌz̥eːən,False,True,sehe aus,s[ie]hst aus,s[ie]ht aus,sehen aus,seht aus,sehen aus,ICH,DU,ERSIEES,WIR,IHR,SIE,s[a]h aus,s[a]hst aus,s[a]h aus,s[a]hen aus,s[a]ht aus,s[a]hen aus,ICH,DU,ERSIEES,WIR,IHR,SIE,PERFEKT,HILFSVERB,Ableitung.aus---
+danken,ˈdaŋkn̩,True,Not,danke,dankst,dankt,danken,dankt,danken,,,,,,,,,,,,,,,,,,,PERFEKT,HILFSVERB,de
+fliegen,ˈfliːɡn̩,False,Not,fliege,fliegst,fliegt,fliegen,fliegt,fliegen,,,,,,,,,,,,,,,,,,,gefl[o]gen,sein/haben,de
+schlafen,ˈʃlaːfn̩,False,Not,schlafe,schläfst,schläft,schlafen,schlaft,schlaft,ICH,DU,ERSIEES,WIR,IHR,SIE,ich,du,ersiees,wir,ihr,sieSie,ich,du,ersiees,wir,ihr,sieSie,geschafen,haben,de
+ausleihen,ˈaʊ̯sˌlaɪ̯ən,False,True,leihe aus,leihst aus,leiht aus,leihen aus,leiht aus,leihen aus,,,,,,,,,,,,,,,,,,,ausgel[ie]hen,haben,Ableitung.aus-
+leihen,ˈlaɪ̯ən,False,Not,leihe,leihst,leiht,leihen,leiht,leihen,,,,,,,,,,,,,,,,,,,gel[ie]hen,haben,*
+anmelden,ˈanˌmɛldn̩,True,True,melde an,meldest an,meldet an,melden an,meldet an,melden an,,,,,,,,,,,,,,,,,,,angemeldet,haben,Ableitung.an-
+melden,ˈmɛldn̩,True,Not,melde,meldest,meldet,melden,meldet,melden,,,,,,,,,,,,,,,,,,,gemeldet,haben,*
+hinweisen,ˈhɪnˌvaɪ̯zn̩,False,True,weise hin,weist hin,weist hin,weisen hin,weist hin,weisen hin,,,,,,,,,,,,,,,,,,,hingew[ie]sen,haben,Ableitung.hin-
+weisen,ˈvaɪ̯zn̩,False,Not,weise,weist,weist,weisen,weist,weisen,,,,,,,,,,,,,,,,,,,gew[ie]sen,haben,Ableitung.hin-
+verwalten,fɛɐ̯ˈvaltn̩,True,False,verwalte,verwaltest,verwaltet,verwalten,verwaltet,verwalten,,,,,,,,,,,,,,,,,,,verwaltet,haben,Ableitung.ver-
+walten,ˈvaltn̩,True,Not,walte,waltest,waltet,walten,waltet,walten,,,,,,,,,,,,,,,,,,,gewaltet,haben,de
+diskutieren,dɪskuˈtiːʁən,True,Not,diskutiere,diskutierst,diskutiert,diskutieren,diskutiert,diskutieren,,,,,,,,,,,,,,,,,,,diskutiert,haben,Lehnwort.la
+aufhören,ˈaʊ̯fˌhøːʁən,True,True,höre auf,hörst auf,hört auf,hören auf,hört auf,hören auf,,,,,,,,,,,,,,,,,,,aufgehört,haben,Ableitung.auf-
+bekommen,bəˈkɔmən,False,False,bekomme,bekommst,bekommt,bekommen,bekommt,bekommen,,,,,,,,,,,,,,,,,,,bekommen,sein/haben,Ableitung.be-
+abschließen,ˈapˌʃliːsn̩,False,True,schließe ab,schließt ab,schließt ab,schließen ab,schließt ab,schließen ab,,,,,,,,,,,,,,,,,,,abgeschl[o]ssen,haben,Ableitung.ab-
+dozieren,doˈt͡siːʁən,True,Not,doziere,dozierst,doziert,dozieren,doziert,dozieren,,,,,,,,,,,,,,,,,,,doziert,haben,Lehnwort.la
+vorkommen,ˈfoːɐ̯ˌkɔmən,False,Not,komme vor,kommst vor,kommt vor,kommen vor,kommt vor,kommen vor,,,,,,,,,,,,,,,,,,,vorgekommen,sein,Ableitung.vor-
+kopieren,koˈpiːʁən,True,Not,kopiere,kopierst,kopiert,kopieren,kopiert,kopieren,,,,,,,,,,,,,,,,,,,kopiert,haben,Lehnwort.la
+
