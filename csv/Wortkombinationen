@@ -1,71 +1,200 @@
-Präposition/Kontraktion,Recipient,Verb
-für,eine Prüfung,lernen
-,Gymnastik,machen
-,[Ort],nachfahren
-zum,Arzt,gehen
-,eine E-Mail,schreiben
-mit,[Person],telefonieren
-,eine Besprechung,haben
-,Pause,machen
-ins,Museum,gehen
-,der Unterricht,beginnen
-,die Pause,sein
-,Fußball,spielen
-,die Pause,dauern
-,die Besprechung,dauern
-ins,Restaurant,gehen
-in,ein Restaurant,gehen
-,ein Projekt,präsentieren
-,ein Konferenz,besuchen
-in,die Universität,gehen
-in,der Bibliothek,sitzen
-,[Person],anrufen
-ins,Bett,gehen
-in,der Stadt,einkaufen
-,Gäste,bedienen
-,[Ort],besuchen
-,Patienten,untersuchen
-,Sport,treiben
-,Partys,feiern
-mit,[Person],sprechen
-im,Supermarkt,einkaufen
-um,[Zeit],aufstehen
-mit,der Arbeit,beginnen
-mit,dem Kurs,anfangen
-,Hunger,haben
-ins,Büro,fahren
-zum,Beispiel,
-,Glas Wien,
-,,schwimmen lernen
-,Stück Kuchen,
-,Glas Milch,
-am,[Wochentag],
-um,[Zeit],
-nach,[etwas],schmecken
-im,Jahr,
-in,[Land],
-,[etwas],gehen essen
-in,die Uni,fahren
-,Kaffee,kochen
-,Urlaub,haben
-,Urlaub,haben
-im,Fitnessstudio,sein
-einen,Vortrag,halten
-mit,[Person],trinken gehen
-ins,Kino,gehen
-ins,Fitnessstudio,gehen
-aus,dem Ausland,sein
-auf,[etwas],hinweisen
-,Freunde,finden
-mit,[Person],diskutieren
-auf,Parys,gehen
-zu,Haus,lernen
-in,der Bibliothek,lernen
-in,der Bibliothek,sein
-beim,[etwas],arbeiten
-,ein Zimmer,suchen
-,eine gute Note,bekommen
-,[Person],besuchen
-,Studiengebühren,bezahlen
-,das Studium,abschließen
-,Urlaub,haben
+Prefeld,Präposition,Dativ,Verb
+,für,eine Prüfung,lernen
+,,Gymnastik,machen
+,,[Ort],nachfahren
+,zum,Arzt,gehen
+,,E-Mail,schreiben
+,mit,[Person],telefonieren
+,,eine Besprechung,haben
+,,Pause,machen
+,ins,Museum,gehen
+,,der Unterricht,beginnen
+,,die Pause,sein
+,,Fußball,spielen
+,,die Pause,dauern
+,,die Besprechung,dauern
+,ins,Restaurant,gehen
+,in,ein Restaurant,gehen
+,,ein Projekt,präsentieren
+,,ein Konferenz,besuchen
+,in,die Universität,gehen
+,in,der Bibliothek,sitzen
+,,[Person],anrufen
+,ins,Bett,gehen
+,in,der Stadt,einkaufen
+,,Gäste,bedienen
+,,[Ort],besuchen
+,,Patienten,untersuchen
+,,Sport,treiben
+,,Partys,feiern
+,mit,[Person],sprechen
+,im,Supermarkt,einkaufen
+,um,[Zeit],aufstehen
+,mit,der Arbeit,beginnen
+,mit,dem Kurs,anfangen
+,,Hunger,haben
+,ins,Büro,fahren
+,zum,Beispiel,
+,,Glas Wien,
+,,,schwimmen lernen
+,,Stück Kuchen,
+,,Glas Milch,
+,am,[Wochentag],
+,um,[Zeit],
+,nach,[etwas],schmecken
+,im,Jahr,
+,mit,[Person],essen gehen
+,in,die Uni,fahren
+,,Kaffee,kochen
+,,Urlaub,haben
+,im,Fitnessstudio,sein
+,,einen Vortrag,halten
+,mit,[Person],trinken gehen
+,ins,Kino,gehen
+,ins,Fitnessstudio,gehen
+,aus,dem Ausland,sein
+,auf,[etwas],hinweisen
+,,Freunde,finden
+,mit,[Person],diskutieren
+,auf,Parys,gehen
+,zu,Haus,lernen
+,in,der Bibliothek,lernen
+,in,der Bibliothek,sein
+,bei,[etwas],arbeiten
+,,ein Zimmer,suchen
+,,eine gute Note,bekommen
+,,[Person],besuchen
+,,Studiengebühren,bezahlen
+,,das Studium,abschließen
+,zu,der Arbeit,fahren
+,im,Stau,stehen
+,auf,dem Weg,*
+,auf,Platz [Zahl],liegen
+,mit,der Bahn,fahren
+,,den Zug,nehmen
+,,die S-Bahn,nehmen
+,zu,der Schule,fahren
+,zu,der Uni,fahren
+,in,den Urlaub,fahren
+,,Urlaub,machen
+,im,Zug,machen
+,im,Auto,machen
+,im,Bus,machen
+,in,der S-Bahn,machen
+,,Music,hören
+,,Zeitung,lesen
+,auf,Handy,spielen
+,auf,Smartphone,spielen
+,am,Gleis,fahren
+,von,Gleis,fahren
+,zu,der Weiterfahrt,
+,nach,[Ort],
+,zu,dem Flugsteig,gehen
+,auf,der Fahrbahn,sein
+,,[Dauert] Verspätung,haben
+,im,Januar,
+,im,Februar,
+,im,März,
+,im,April,
+,im,Mai,
+,im,Juni,
+,im,Juli,
+,im,August,
+,im,September,
+,im,Oktober,
+,im,November,
+,im,Dezember,
+,im,Winter,
+,im,Frühling,
+,im,Sommer,
+,im,Herbst,
+,,,schwimmen gehen
+,,Ski,fahren
+,,lecker,essen
+,zu,der Massage,gehen
+,nach,[Länder ohne Artikel],fahren
+,nach,[Städte],fahren
+,in,[Land mit Artikel],fahren
+,auf,[Inseln],fahren
+,zu,dem Skifahren,
+,zu,dem Flughafen,fahren
+,zu,Hause,bleiben
+,an,einigen Tagen,regnen
+,,ein Foto,machen
+,gegen,[etwas],spielen
+,,eine gute Qualität,haben
+,über,das Internet,kaufen
+,,,spazieren gehen
+,,die Farbe [Farbe],
+,auf,E-Reader,lesen
+,in,Geschäfte,gehen
+,im,Internet,finden
+,ins,[Sprace],übersetzen
+,,Dokumente,scannen
+,,Dokumente,ausdrucken
+,,E-Mail,lesen
+,,E-Mail,beantworten
+,,E-Mail,weiterleiten
+,,Telefongespräche,führen
+,bei,der Besprechung Protokoll,schreiben
+,,Dokumente,übersetzen
+,nach,[Zahl] Seit(en),
+,zu,[Person],fahren
+,,ein Vortrag,halten
+,*bei,[Ort],kaufen
+,*bei,[Person],kaufen
+,,das Internet,gehen
+,,[Person],suchen
+,bei,[Person],sein
+,zu,Hause,sein
+,auf,[etwas],zurückkommen
+,,Verhandlung,führen
+,in,dem Internet,surfen
+,in,sozialen Netzwerken,kommunizieren
+,mit,[Person],unternehmen
+,,Spaß,machen
+,mit,der Vorbereitung,beginnen
+,,das Problem,liegen
+,,ein Platz,nehmen
+,in,dem Internet,verbringen
+,bei,dem Arzt,sein
+,,das Video,sehen
+,auf,der Couch,sitzen
+,über,[etwas],verfügen
+,zu,der Miete,wohnen
+,in,Miete,wohnen
+,in,dem [Himmelsrichtung],
+,,die Treppe,nehmen
+,aus,{Dativ},bestehen
+,in,{Dativ},bestehen
+,an,der Wand,hängen
+,auf,dem zweiten Platz,folgen
+,auf,der Party,bleiben
+,in,[Ort],essen
+,zu,der Schule,gehen
+,vor,der Tür,bleiben
+,an,der [Fluss],liegen
+,in,[Person's] Schuld,sein
+,in,[Person's] Schuld,stehen
+,,Hausaufgaben,machen
+,an,[Person's] [etwas],arbeiten
+,statt,<{Genitiv} Pronomen>,
+,auf,den Plan,treten
+,von,[Person],bekommen
+,,in [Zeit] [etwas],haben
+,durch,den Park,laufen
+,zu,Bett,liegen
+,an,Besprechungen,teilnehmen
+,am,Tag,
+,als,[etwas],gelten
+,zu,{Dativ},zählen
+nördlich,von,[Ort],liegen
+östlich,von,[Ort],liegen
+südlich,von,[Ort],liegen
+westlich,von,[Ort],liegen
+im Norden,von,[Ort],liegen
+im Osten,von,[Ort],liegen
+im Süden,von,[Ort],liegen
+im Westen,von,[Ort],liegen
+auf,die Zugspitze,
+,eine Entscheidung,fällen

@@ -43,11 +43,13 @@ convert_ipa () {
 		s/ŋ/\\ng{}/g;
 		s/œ/\\oe{}/g;
 		s/t͡s/\\t{ts}/g;
+		s/ʦ/\\texttslig{}/g;
 		s/p͡f/\\t{pf}/g;
 		s/ɑ̃/\\~{A}/g;
 		s/ː/:/g;
 		s/ɛ/E/g;
 		s/ʁ/K/g;
+		s/ʀ/\\textscr{}/g;
 		s/ʃ/S/g;
 		s/ɔ̃/\\~{O}/g;
 		s/ɔ/O/g;
